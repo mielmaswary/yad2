@@ -1,0 +1,55 @@
+
+input[type="radio"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    padding: 3px;
+    margin-left: 5px;
+    background-clip: content-box;
+    background-color: #ffffff;
+    border: 2px solid gray;
+    border-radius: 50%;
+    transform: translateY(2px);
+
+}
+input[type="radio"]:checked{
+    background-color: #FF7100;
+    border: 2px solid #FF7100;
+}
+
+input[type="checkbox"]{
+    // @extend input[type="radio"];
+    // border-radius: 0;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    padding: 3px;
+    margin-left: 5px;
+    background-clip: content-box;
+    background-color: #ffffff;
+    border: 2px solid gray;
+    // border-radius: 50%;
+    transform: translateY(2px);
+
+}
+input[type="checkbox"]:checked{
+    background-color: #FF7100;
+    border: 2px solid #FF7100;
+    content: '✔';
+}
+
+
+
+
+  
+
+
+
+

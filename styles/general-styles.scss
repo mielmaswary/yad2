@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+body{
+    background-color: rgb(235, 235, 235);
+   
+}
+//position
+.fixed-bottom{
+    position: fixed;
+    bottom: 0;
+}
+//display
+.display-none{
+    display: none;
+}
+.container-full{
+    width: 100vw; 
+}
+.flex-row{
+   display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.justify-space-evenly{
+   justify-content: space-evenly;
+}
+.justify-center{
+    justify-content: center;
+ }
+.justify-space-around{
+    justify-content: space-around;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+//sizes
+.nav-bar-titles{
+    font-size: 12px;
+}
+
+//margin&padding
+.padding-4{
+    padding: 4px;
+}
+//text
+.font-weight-regular{
+    font-weight: 400;
+}
+.font-weight-bold{
+    font-weight: 700;
+}
+
+//colors
+
+.main-text-color{
+    color: #363636;
+}
+.white{
+    color: white;
+}
+.orange{
+    color: #FF7B00;
+}
+
+.orange-bold{
+    color: #FF7100;
+}
+
+.orange-bold-bg{
+    background-color: #FF7100;
+}
+
+.blue-bg{
+    background-color: #632bff;
+}
+.white-bg{
+    background-color: #ffffff;
+}
+
+//elements
+h2{
+    font-size:  17px;
+}
+a{
+    color: #363636;
+    text-decoration: none;
+}
+
+.green-btn{
+    background-color: #0FCA80; 
+    color: white;
+}
+.green-btn:hover{
+    background-color: #0E9C64;
+}
+
+//special
+.new-project{
+    height: 17px;
+    width: 76px;
+    font-size: 11px;
+    background-color: #0495FF;
+    padding:1px 3px 1px 12px;
+    color: white;
+    position: absolute;
+    bottom: 55px;
+    right: -4px;
+    border-radius: 0 3px 3px 0;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+    position: absolute;
+    left: -5px;
+    top: 0;
+	border-top: 8px solid #0495FF;
+	border-left:5px solid transparent;
+	border-bottom: 9px solid #0495FF;
+}
+.heart-icon{
+    background-image: url('../styles/imgs/heart.svg');
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    width:25px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}

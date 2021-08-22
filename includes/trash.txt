@@ -1,0 +1,520 @@
+
+
+
+<!-- <div id="header" class="">
+    <div>לוגו</div>
+    <div id="nav-bar">
+         <a href=#>נדל"ן
+             <div class="dropList d-none">
+                 <a href=# >רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>רכב
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>יד שנייה
+             <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>דרושים
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>עסקים למכירה
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>חיות מחמד
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>בעלי מקצוע
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>עוד...
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+    </div>
+
+    <div id="personalZone">
+        <div>פעמון
+            <div class="dropList d-none">
+               
+            </div>
+        </div>
+        <div>לב
+            <div class="dropList d-none">
+               
+           </div>
+        </div>
+        <div>שם משתמש
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </div>
+    </div>
+    <div class="green-btn">פרסום מודעה חדשה +</div>
+
+</div> -->
+
+ 
+<!-- 
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-white ">
+ <div class="container-fluid border-bottom " style="height:70px">
+  <div class="logo" href="#"></div>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="main_nav" style="height:100%">
+	<ul class="nav justify-content-center text-secondary " style="height:100%">
+        <li class="nav-item dropdown ">
+		   <a class="nav-link" href="#" data-bs-toggle="dropdown">  נדל"ן  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>        <li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  רכב  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>		<li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  יד שנייה  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+		<li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  דרושים  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+        <li class="nav-item dropdown">
+		   <a class="nav-link " href="#" data-bs-toggle="dropdown">  עסקים למכירה  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+        <li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  חיות מחמד  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+        <li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  בעלי מקצוע  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+        <li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  עוד...  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+	</ul>
+  </div> 
+ </div> 
+</nav>  -->
+
+<!-- <div class="container-sm" style="background-color:#FF7100;">
+    <div class="row"><h1>logo</h1></div>
+   
+</div> -->
+
+
+<!-- <div id="header" class="">
+    <div>לוגו</div>
+    <div id="nav-bar">
+         <a href=#>נדל"ן
+             <div class="dropList d-none">
+                 <a href=# >רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>רכב
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>יד שנייה
+             <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>דרושים
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>עסקים למכירה
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>חיות מחמד
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>בעלי מקצוע
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+        <a href=#>עוד...
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </a>
+    </div>
+
+    <div id="personalZone">
+        <div>פעמון
+            <div class="dropList d-none">
+               
+            </div>
+        </div>
+        <div>לב
+            <div class="dropList d-none">
+               
+           </div>
+        </div>
+        <div>שם משתמש
+            <div class="dropList d-none">
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+                 <a href=#>רכב</a>
+            </div>
+        </div>
+    </div>
+    <div class="green-btn">פרסום מודעה חדשה +</div>
+
+</div> -->
+
+ 
+<!-- 
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-white ">
+ <div class="container-fluid border-bottom " style="height:70px">
+  <div class="logo" href="#"></div>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="main_nav" style="height:100%">
+	<ul class="nav justify-content-center text-secondary " style="height:100%">
+        <li class="nav-item dropdown ">
+		   <a class="nav-link" href="#" data-bs-toggle="dropdown">  נדל"ן  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>        <li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  רכב  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>		<li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  יד שנייה  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+		<li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  דרושים  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+        <li class="nav-item dropdown">
+		   <a class="nav-link " href="#" data-bs-toggle="dropdown">  עסקים למכירה  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+        <li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  חיות מחמד  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+        <li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  בעלי מקצוע  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+        <li class="nav-item dropdown">
+		   <a class="nav-link  " href="#" data-bs-toggle="dropdown">  עוד...  </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+			  <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+		    </ul>
+		</li>
+	</ul>
+  </div> 
+ </div> 
+</nav>  -->
+
+<!-- <div class="container-sm" style="background-color:#FF7100;">
+    <div class="row"><h1>logo</h1></div>
+   
+</div> -->
+
+
+
+
+INSERT INTO `ads` (`id`, `apartmentType`, `cityName`, `cityType`, `street`, `adressNum`, `floor`, `totalsFloors`, `pillars`, `neighborhood`, `area`, `roomsNum`, `size`, `groundFloor`, `bars`, `pandor`, `mmd`, `furnished`, `parking`, `pets`, `garage`, `partners`, `airConditioner`, `invalids`, `longTime`, `porch`, `renovated`, `exclusivity`, `price`, `entryDate`, `img1`, `img2`, `img3`, `movie`, `awnerID`) VALUES (NULL, 'דירה', 'ירושלים', 'עיר', 'מונטיפיורי', '10', '4', NULL, NULL, 'נחלאות', 'ירושלים', '5', '120', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '4000', NULL, NULL, NULL, NULL, NULL, NULL)

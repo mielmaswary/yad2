@@ -1,0 +1,56 @@
+
+#header{
+    background-color:#FF9100;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    .header-item{
+        width: 70px;
+        height: 40px;
+    }
+
+}
+ 
+.logo{
+    height: 50px;
+    width: 90px;
+    background-image: url('https://assets.yad2.co.il/yad2site/y2assets/images/header/yad2Logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.m-logo{
+    background-image: url('https://play-lh.googleusercontent.com/0Zm58WQREOuseVPO4y-GcEb2yJL8WFDjl7sYzzknysyhgPubM5DDB344MSJMmnhjw-g');
+    height: 40px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.m-bubble{
+    @extend .m-logo;
+    background-image: url('./imgs/ui-text-loading.svg');
+    fill: #FF9100;
+
+}
+
+.m-menuBars{
+    @extend .m-logo;
+    background-image: url('./imgs/menu.svg');
+
+}
+
+
+
+
+
+
+
+
+
+
+

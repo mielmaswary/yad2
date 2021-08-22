@@ -1,0 +1,30 @@
+
+
+
+::-webkit-scrollbar {
+    display:none;
+}
+.container-over-flow-hidden{
+    width: 100%;
+    overflow: scroll;
+    background: transparent;
+}
+.promoted-ad{
+   margin: 4px;
+   position: relative;
+
+   .promoted-ad-img{
+       width: 125px;
+       height: 80px;
+       background-size: contain;
+       position: relative;
+       background-repeat: no-repeat;
+       background-size: cover;
+       padding: 5px;
+   }
+
+   .promoted-ad-info{
+       font-size: 11px;
+       height: 40px;
+   }
+}

@@ -1,0 +1,15 @@
+.ad-banner {
+  height: 100%;
+  width: 90%;
+  background-color: white;
+  color: #FF9100;
+  margin: 5px auto;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.ad-banner span {
+  font-size: 15px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=ad-banner.css.map */

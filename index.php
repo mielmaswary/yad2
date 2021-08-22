@@ -10,6 +10,7 @@
     require_once('./includes/breadCrumbs.php');
     require_once('./includes/headLine.php');
     require_once('./includes/promotedAds.php');
+    require_once('./includes/sortAndFilterBtn.php');
     require_once('./includes/sortFilterForm.php');
     require_once('./includes/ads.php');
     require_once('./includes/htmlEnd.php');

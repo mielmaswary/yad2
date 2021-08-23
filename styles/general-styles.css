@@ -128,17 +128,6 @@ a {
   background-color: #0E9C64;
 }
 
-.btn-rect {
-  width: 100px;
-  height: 25px;
-  background-color: white;
-  border: #bebcbc 1px solid;
-  text-align: left;
-  font-size: 11px;
-  margin: 3px;
-  padding: 4px 0 4px 6px;
-}
-
 .new-project {
   height: 17px;
   width: 76px;
@@ -172,6 +161,30 @@ a {
   width: 25px;
   border-radius: 50%;
   background-color: white;
+}
+
+.btn-rect, .sort-icon-btn, .filer-icon-btn {
+  width: 100px;
+  height: 25px;
+  background-color: white;
+  border: #bebcbc 1px solid;
+  text-align: left;
+  font-size: 11px;
+  margin: 3px;
+  padding: 4px 4px 4px 12px;
+  position: relative;
+}
+
+.sort-icon-btn, .filer-icon-btn {
+  background-image: url("../styles/imgs/sort-icon.png");
+  background-size: 22%;
+  background-repeat: no-repeat;
+  background-position: 90%;
+}
+
+.filer-icon-btn {
+  background-image: url("../styles/imgs/filter-icon.png");
+  background-size: 14%;
 }
 
 @media all and (min-width: 992px) {

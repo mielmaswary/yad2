@@ -6,19 +6,48 @@
 }
 body{
     background-color: rgb(235, 235, 235);
-   
+    overflow: auto;
+
 }
 //position
 .fixed-bottom{
     position: fixed;
     bottom: 0;
 }
+.sticky-top0{
+    position:sticky;
+    top:0;
+}
+.sticky-top-40{
+    position:sticky;
+    top:-40px;
+}
+.transion{
+    transition: all 0.15s;
+}
+.z-index-2{
+    z-index: 2;
+}
+
+.z-index5{
+    z-index: 5;
+}
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }
 //display
 .display-none{
-    display: none;
+    // display: none;
+    visibility: hidden;
+    opacity: 0;
 }
 .container-full{
     width: 100vw; 
+}
+.container-center{
+    width: 85vw;
+    margin: auto;
 }
 .flex-row{
    display: flex;
@@ -52,18 +81,32 @@ body{
 .padding-4{
     padding: 4px;
 }
+.margin-auto{
+    margin: auto;
+}
 //text
+.font-weight-light{
+    font-weight: 200;
+}
 .font-weight-regular{
     font-weight: 400;
 }
 .font-weight-bold{
     font-weight: 700;
 }
-
+.font-size-small{
+    font-size: 12px;
+}
+.text-align-center{
+    text-align: center;
+}
 //colors
 
 .main-text-color{
     color: #363636;
+}
+.bright-grey{
+    color: rgb(170, 166, 166);
 }
 .white{
     color: white;
@@ -86,13 +129,18 @@ body{
 .white-bg{
     background-color: #ffffff;
 }
-
+.grey-bg{
+    background-color: #EBEBEB;
+}
+.dark-gray-bg{
+    background-color: rgb(63, 58, 58);
+}
 //elements
 h2{
     font-size:  17px;
 }
 a{
-    color: #363636;
+    // color: #363636;
     text-decoration: none;
 }
 
@@ -106,6 +154,10 @@ a{
 
 
 //special
+
+.bottom-line{
+   border-bottom: 1px solid #b1adad;
+}
 .new-project{
     height: 17px;
     width: 76px;
@@ -164,6 +216,25 @@ a{
   
 }
 
+.map-icon-btn{
+    @extend .sort-icon-btn;
+    width: 50px;
+    border:1px solid rgb(13, 194, 94);
+    background-image: url('../styles/imgs/map-icon.png');
+    padding-left: 6px ; 
+}
+.modal-bg{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0000003b;
+    z-index: 3;
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+.modal{
+
+}
 
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }

@@ -1,0 +1,13 @@
+.footer {
+  height: 350px;
+  padding-top: 20px;
+}
+
+.footer a {
+  font-weight: 700;
+}
+
+.footer * {
+  color: honeydew;
+}
+/*# sourceMappingURL=footer.css.map */

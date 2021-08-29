@@ -6,6 +6,7 @@
 
 body {
   background-color: #ebebeb;
+  overflow: auto;
 }
 
 .fixed-bottom {
@@ -13,12 +14,48 @@ body {
   bottom: 0;
 }
 
+.sticky-top0 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sticky-top-40 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: -40px;
+}
+
+.transion {
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.z-index5 {
+  z-index: 5;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
 .display-none {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .container-full {
   width: 100vw;
+}
+
+.container-center {
+  width: 85vw;
+  margin: auto;
 }
 
 .flex-row {
@@ -74,6 +111,14 @@ body {
   padding: 4px;
 }
 
+.margin-auto {
+  margin: auto;
+}
+
+.font-weight-light {
+  font-weight: 200;
+}
+
 .font-weight-regular {
   font-weight: 400;
 }
@@ -82,8 +127,20 @@ body {
   font-weight: 700;
 }
 
+.font-size-small {
+  font-size: 12px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
 .main-text-color {
   color: #363636;
+}
+
+.bright-grey {
+  color: #aaa6a6;
 }
 
 .white {
@@ -110,12 +167,19 @@ body {
   background-color: #ffffff;
 }
 
+.grey-bg {
+  background-color: #EBEBEB;
+}
+
+.dark-gray-bg {
+  background-color: #3f3a3a;
+}
+
 h2 {
   font-size: 17px;
 }
 
 a {
-  color: #363636;
   text-decoration: none;
 }
 
@@ -126,6 +190,10 @@ a {
 
 .green-btn:hover {
   background-color: #0E9C64;
+}
+
+.bottom-line {
+  border-bottom: 1px solid #b1adad;
 }
 
 .new-project {
@@ -163,7 +231,7 @@ a {
   background-color: white;
 }
 
-.btn-rect, .sort-icon-btn, .filer-icon-btn {
+.btn-rect, .sort-icon-btn, .filer-icon-btn, .map-icon-btn {
   width: 100px;
   height: 25px;
   background-color: white;
@@ -175,7 +243,7 @@ a {
   position: relative;
 }
 
-.sort-icon-btn, .filer-icon-btn {
+.sort-icon-btn, .filer-icon-btn, .map-icon-btn {
   background-image: url("../styles/imgs/sort-icon.png");
   background-size: 22%;
   background-repeat: no-repeat;
@@ -185,6 +253,23 @@ a {
 .filer-icon-btn {
   background-image: url("../styles/imgs/filter-icon.png");
   background-size: 14%;
+}
+
+.map-icon-btn {
+  width: 50px;
+  border: 1px solid #0dc25e;
+  background-image: url("../styles/imgs/map-icon.png");
+  padding-left: 6px;
+}
+
+.modal-bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0000003b;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 @media all and (min-width: 992px) {

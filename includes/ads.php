@@ -1,4 +1,4 @@
-<div class="">
+<div id="ads-container" class=" flex-column align-center">
     <?php
     
        $sql='SELECT * FROM  ads';

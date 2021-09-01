@@ -53,8 +53,18 @@ body {
   width: 100vw;
 }
 
-.container-center {
+.container-85 {
   width: 85vw;
+  margin: auto;
+}
+
+.container-60 {
+  width: 60vw;
+  margin: auto;
+}
+
+.container-half {
+  width: 50vw;
   margin: auto;
 }
 
@@ -72,6 +82,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .justify-space-evenly {
@@ -111,8 +126,20 @@ body {
   padding: 4px;
 }
 
+.padding-15 {
+  padding: 15px;
+}
+
 .margin-auto {
   margin: auto;
+}
+
+.margin-4 {
+  margin: 4px;
+}
+
+.margin-10 {
+  margin: 10px;
 }
 
 .font-weight-light {
@@ -128,11 +155,15 @@ body {
 }
 
 .font-size-small {
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .text-align-center {
   text-align: center;
+}
+
+.word-break-keep-all {
+  word-break: keep-all;
 }
 
 .main-text-color {

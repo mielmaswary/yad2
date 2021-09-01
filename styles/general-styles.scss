@@ -47,11 +47,15 @@ body{
 }
 .container-85{
     width: 85vw;
-    margin: auto;
+    margin: 5px auto;
 }
 .container-60{
     width: 60vw;
-    margin: auto;
+    margin: 5px auto;
+}
+.container-50{
+    width: 50vw;
+    margin: 5px auto;
 }
 .container-half{
     width: 50vw;
@@ -127,6 +131,9 @@ body{
     word-break: keep-all;
     // word-break: break-word;
 }
+.word-break-break-all{
+    word-break:break-word;
+}
 //colors
 
 .main-text-color{
@@ -183,7 +190,8 @@ a{
 //special
 
 .bottom-line{
-   border-bottom: 1px solid #b1adad;
+   border-bottom: 1px solid #c9c4c4b0;
+   padding-bottom: 8px;
 }
 .new-project{
     height: 17px;

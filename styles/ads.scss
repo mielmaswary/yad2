@@ -1,6 +1,6 @@
 .ad{
     width: 100%;
-    height: 100px;
+    height: 120px;
     background-color: #FDF9C5;
     margin: 4px;
     .ad-img{
@@ -11,5 +11,14 @@
     }
     .info{
         flex:2;
+        word-break:break-all;
+        .additional-info{
+            *{
+                width: 45px;
+                word-break: break-word;
+                text-align: center;
+                line-height: 20px;
+            }
+        }
     }
 }

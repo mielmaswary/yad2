@@ -14,6 +14,10 @@ body{
     position: fixed;
     bottom: 0;
 }
+.fixed-top0{
+    position: fixed;
+    top: 0;
+}
 .sticky-top0{
     position:sticky;
     top:0;
@@ -31,6 +35,9 @@ body{
 
 .z-index5{
     z-index: 5;
+}
+.z-index10{
+    z-index: 20;
 }
 .stop-scrolling {
     height: 100%;
@@ -61,8 +68,16 @@ body{
     width: 50vw;
     margin: auto;
 }
+.container-over-flow-hidden{
+    overflow: scroll;
+    background: transparent;
+}
 .flex-row{
    display: flex;
+}
+.flex-row-rev{
+    display: flex;
+    flex-direction: row-reverse;
 }
 .flex-column{
     display: flex;
@@ -97,6 +112,9 @@ body{
 .padding-4{
     padding: 4px;
 }
+.padding-4-8{
+    padding: 4px 8px;
+}
 .padding-15{
     padding: 15px;
 }
@@ -118,6 +136,9 @@ body{
 .font-weight-regular{
     font-weight: 400;
 }
+.font-weight-500{
+    font-weight: 500;
+}
 .font-weight-bold{
     font-weight: 700;
 }
@@ -133,6 +154,9 @@ body{
 }
 .word-break-break-all{
     word-break:break-word;
+}
+.white-space-nowrap{
+    white-space: nowrap;
 }
 //colors
 
@@ -188,6 +212,9 @@ a{
 
 
 //special
+.rounded-corners{
+    border-radius: 2%;
+}
 
 .bottom-line{
    border-bottom: 1px solid #c9c4c4b0;
@@ -225,11 +252,17 @@ a{
     border-radius: 50%;
     background-color: white;
 }
-
+.small-rect{
+    width: auto;
+    height: 25px;
+    padding: 4px 22px;
+    margin: 8px 4px;  
+    border-radius: 5%;
+  
+}
 .btn-rect{
     width: 100px;
     height: 25px;
-    background-color: white;
     border: #bebcbc 1px solid;
     text-align: left;
     font-size:11px;
@@ -237,6 +270,21 @@ a{
     padding: 4px 4px 4px 12px;
     position: relative;
 }
+.btn-ellips{
+    @extend .btn-rect;
+    border-radius: 10px;
+    width: 75px;
+}
+.erase-btn{
+    @extend .btn-ellips;
+    border: none;
+    padding-right: 8px;
+    background-image: url('../styles/imgs/erase-icon.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
 .sort-icon-btn{
     @extend .btn-rect;
     background-image: url('../styles/imgs/sort-icon.png');
@@ -270,7 +318,11 @@ a{
 .modal{
 
 }
+.box-shadow-bottom{
+    box-shadow: rgb(179, 177, 177) 0 4px 10px -2px ;
+   
 
+}
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }

@@ -1,30 +1,64 @@
+// .search-field-wraper{
+//     position: relative;
+
+//     .search-field{
+//         background-image: url('https://i2.wp.com/www.thinkafrica.fi/wp-content/uploads/2019/04/search-icon.png?fit=1200%2C1200&ssl=1&w=640');
+//         background-position: 100% 65%;
+//         background-size: 25px;
+//         background-repeat: no-repeat;
+//         background-color: white;
+//         border: none;
+//         border: 0.2px solid rgb(172, 171, 171);
+//         width: 90%;
+//         height: 40px;
+//         padding: 0 35px;
+//         font-size: 13px;
+//         box-shadow: rgb(179, 177, 177) 1px 1px 10px;
+//         margin-bottom: 15px;
+      
+//     }
+
+//     div{
+//         position: absolute;
+//         top:8px;
+//         left: 8%;
+//         color: #FF9100;
+//         font-size: 15px;
+//     }
+// }
+
+
 .search-field-wraper{
     position: relative;
 
-    .search-field{
+    .search-field-btn{
         background-image: url('https://i2.wp.com/www.thinkafrica.fi/wp-content/uploads/2019/04/search-icon.png?fit=1200%2C1200&ssl=1&w=640');
-        background-position: 100% 65%;
+        background-position: 99% 65%;
         background-size: 25px;
         background-repeat: no-repeat;
         background-color: white;
         border: none;
         border: 0.2px solid rgb(172, 171, 171);
         width: 90%;
-        height: 40px;
+        height: 50px;
         padding: 0 35px;
         font-size: 13px;
         box-shadow: rgb(179, 177, 177) 1px 1px 10px;
         margin-bottom: 15px;
-
-      
+        div{
+            width: 30px;
+            height: 100%;
+        }
     }
 
     div{
         position: absolute;
-        top:8px;
-        left: 8%;
+        top:-10px;
+        left:5%;
         color: #FF9100;
         font-size: 15px;
     }
 }
+
+
 

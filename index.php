@@ -2,9 +2,12 @@
 <?php
 
     require_once('./includes/htmlStart.php');
+    require_once('./includes/loading-page.php');
+
     require_once('./db/dbCon.php');
     // require_once('./db/dbSetUp.php');
     require_once('./includes/modal.php');
+    require_once('./includes/loading-page.php');
     echo'<div id="sticky-header"class="container-full grey-bg z-index-2 sticky-top0 transion">';
     require_once('./includes/header.php');
     require_once('./includes/search-field.php');

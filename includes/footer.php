@@ -5,7 +5,7 @@
         <a href="">יד שנייה</a>
         <a href="">דרושים</a>
     </div>
-    <div class="flex-row justify-space-around container-60 padding-15 ">
+    <div class="footer-social-icons flex-row justify-space-around container-60 padding-15 ">
         <div class="footer-social-logo apple-store-logo"></div>
         <div class="footer-social-logo google-play-logo"></div>
         <div class="footer-social-logo fb-logo"></div>

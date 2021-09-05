@@ -1,4 +1,10 @@
 
+//main-search-btn
+const mainSearchBtn = document.getElementById('main-search')
+mainSearchBtn.addEventListener('click',()=>{
+    location.href='./search/index.php'
+})
+
 
 //sticky header
 const stickyHeader=document.getElementById('sticky-header');
@@ -35,6 +41,8 @@ const closeAllModals=()=>{
         document.body.classList.remove('stop-scrolling')
     }
 }
+
+
 //sort and filter modals
 
 sortIconBtn=document.getElementById('sort-icon-btn')

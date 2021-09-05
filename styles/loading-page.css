@@ -1,0 +1,10 @@
+.loading-page {
+  width: 200px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  z-index: 15;
+}
+/*# sourceMappingURL=loading-page.css.map */

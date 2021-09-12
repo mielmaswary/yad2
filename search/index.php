@@ -8,8 +8,8 @@
     require_once('../includes/header.php');
     require_once('../includes/ad-banner.php');
     echo'</div>';
-    require_once('./type-nav.php');//finished
-    require_once('./cleanAllBtn.php');
+    require_once('./type-nav.php');//done
+    require_once('./cleanAllBtn.php');//done
     require_once('./searchByBtns.php');
     require_once('./searchByCity.php');
     require_once('./searchByNeighborhood.php');

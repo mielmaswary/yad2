@@ -147,6 +147,18 @@ body {
           align-items: center;
 }
 
+.flex-grow-1 {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.flex-grow-2 {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
 .nav-bar-titles {
   font-size: 12px;
 }
@@ -157,6 +169,14 @@ body {
 
 .padding-4-8 {
   padding: 4px 8px;
+}
+
+.padding-8-16 {
+  padding: 8px 16px;
+}
+
+.padding-10 {
+  padding: 10px;
 }
 
 .padding-15 {
@@ -235,10 +255,6 @@ body {
   background-color: #FF7100;
 }
 
-.blue-bg {
-  background-color: #632bff;
-}
-
 .white-bg {
   background-color: #ffffff;
 }
@@ -270,6 +286,10 @@ a {
 
 .rounded-corners {
   border-radius: 2%;
+}
+
+.gray-border {
+  border: 1px #c9c4c4b0 solid;
 }
 
 .bottom-line {
@@ -333,16 +353,18 @@ a {
 
 .btn-ellips, .erase-btn {
   border-radius: 10px;
-  width: 75px;
+  width: auto;
 }
 
 .erase-btn {
   border: none;
   padding-right: 8px;
-  background-image: url("../styles/imgs/erase-icon.svg");
-  background-size: 100%;
+  background-image: url("../styles/imgs/bin.png");
+  background-size: 20%;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 90% 50%;
+  padding-right: 25px;
+  opacity: 75%;
 }
 
 .sort-icon-btn, .filer-icon-btn, .map-icon-btn {

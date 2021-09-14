@@ -53,9 +53,13 @@ body {
   overflow: hidden;
 }
 
-.display-none {
+.visibility-hidden {
   visibility: hidden;
   opacity: 0;
+}
+
+.display-none {
+  display: none;
 }
 
 .container-full {
@@ -171,6 +175,10 @@ body {
   padding: 4px 8px;
 }
 
+.padding-8-4 {
+  padding: 8px 4px;
+}
+
 .padding-8-16 {
   padding: 8px 16px;
 }
@@ -193,6 +201,10 @@ body {
 
 .margin-10 {
   margin: 10px;
+}
+
+.margin-bottom-4 {
+  margin-bottom: 4px;
 }
 
 .font-weight-light {
@@ -284,11 +296,17 @@ a {
   background-color: #0E9C64;
 }
 
+.separator-line {
+  border-bottom: 1px solid #c9c4c4b0;
+  height: 10px;
+  margin-bottom: 8px;
+}
+
 .rounded-corners {
   border-radius: 2%;
 }
 
-.gray-border {
+.grey-border {
   border: 1px #c9c4c4b0 solid;
 }
 

@@ -10,7 +10,7 @@
     echo'</div>';
     require_once('./type-nav.php');//done
     require_once('./cleanAllBtn.php');//done
-    require_once('./searchByBtns.php');
+    require_once('./searchByBtns.php');//done
     require_once('./searchByCity.php');
     require_once('./searchByNeighborhood.php');
     require_once('./searchByArea.php');

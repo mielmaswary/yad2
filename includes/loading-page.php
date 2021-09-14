@@ -1,1 +1,1 @@
-<div class="display-none lodaing-page"></div>
+<div class="visibility-hidden lodaing-page"></div>

@@ -31,13 +31,13 @@ window.addEventListener('scroll',function(e){
 modalBg=document.getElementById('modal-bg')
 
 modalBg.addEventListener('click',()=>{
-    modalBg.classList.add('display-none')
+    modalBg.classList.add('visibility-hidden')
     closeAllModals()
 })
 const closeAllModals=()=>{
     const allModals=document.getElementsByClassName('modal-content')
     for(let modal of allModals){
-        modal.classList.add('display-none')
+        modal.classList.add('visibility-hidden')
         document.body.classList.remove('stop-scrolling')
     }
 }
@@ -53,13 +53,13 @@ filterForm=document.getElementById('filter-form')
 modalBg=document.getElementById('modal-bg')
 
 sortIconBtn.addEventListener('click',()=>{
-    modalBg.classList.remove('display-none')
-    sortForm.classList.remove('display-none')
+    modalBg.classList.remove('visibility-hidden')
+    sortForm.classList.remove('visibility-hidden')
     document.body.classList.add('stop-scrolling')
 })
 
 filterIconBtn.addEventListener('click',()=>{
-    modalBg.classList.remove('display-none')
-    filterForm.classList.remove('display-none')
+    modalBg.classList.remove('visibility-hidden')
+    filterForm.classList.remove('visibility-hidden')
     document.body.classList.add('stop-scrolling')
 })

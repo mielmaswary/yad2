@@ -45,12 +45,14 @@ const turnOthersToWhite=()=>{
         searchValue=citySearchField.value
         if(searchValue.length>=2){
              removeAllChildren(citiesDropDown)
-             citiesDropDown.classList.remove('display-none') 
              let matchCities=getCitiesMatchTheSearch(searchValue)
+             if(matchCities.length>0)
+                citiesDropDown.classList.remove('display-none') 
              for(let city of matchCities){
                 let cityInDropDown=document.createElement('div');
                 cityInDropDown.classList.add('padding-8-4')
                 cityInDropDown.innerText=city
+                cityInDropDown.innerHTML= boldSearchValue(cityInDropDown,searchValue)
                 citiesDropDown.appendChild(cityInDropDown)
              }
          }
@@ -58,16 +60,26 @@ const turnOthersToWhite=()=>{
              citiesDropDown.classList.add('display-none')   
       })
 
+
       const getCitiesMatchTheSearch=(searchValue)=>{
           let matchCities=[]
           for (let city of citiesNames){
-              if (city.includes(searchValue))
+              if (city.includes(searchValue)){
                   matchCities.push(city)
+              }
+                  
           }
+          
           return matchCities
       }
 
       const removeAllChildren=(div)=>{
          while(div.firstChild)
             div.removeChild(div.lastChild);
+      }
+
+      const boldSearchValue=(cityDiv,subStr)=>{
+          let result=cityDiv.innerText
+          result= result.replace(subStr, '<span class="font-weight-bold">' + subStr + '</span>')
+          return result
       }

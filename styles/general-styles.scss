@@ -188,6 +188,10 @@ body{
 .font-size-small{
     font-size: 11px;
 }
+
+.font-size-ex-small{
+    font-size: 9px;
+}
 .text-align-center{
     text-align: center;
 }
@@ -200,6 +204,9 @@ body{
 }
 .white-space-nowrap{
     white-space: nowrap;
+}
+.text-underline{
+    text-decoration: underline;
 }
 //colors
 
@@ -299,6 +306,26 @@ a{
     width:25px;
     border-radius: 50%;
     background-color: white;
+}
+.apartmentsImg{
+    @extend .heart-icon;
+    background-image: url('https://assets.yad2.co.il/yad2site/y2assets/images/realestate/Building.svg');
+    background-size: 90%;
+
+}
+.houseImg{
+    @extend .apartmentsImg;
+    background-image: url('https://assets.yad2.co.il/yad2site/y2assets/images/realestate/Country-house.svg');
+}
+.fenceImg{
+    @extend .apartmentsImg;
+    background-image: url('https://assets.yad2.co.il/yad2site/y2assets/images/realestate/Other.svg');
+}
+
+
+.square{
+    width: 90px;
+    height: 90px;
 }
 .small-rect{
     width: auto;

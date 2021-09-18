@@ -11,8 +11,8 @@
     require_once('./type-nav.php');//done
     require_once('./cleanAllBtn.php');//done
     require_once('./searchByBtns.php');//done
-    require_once('./searchByCity.php');
-    require_once('./searchByNeighborhood.php');
+    require_once('./searchByCity.php');//done
+    require_once('./searchByType.php');//UI
     require_once('./searchByArea.php');
     require_once('./onlyMoshavAndKibuts.php');
     require_once('./roomsFilter.php');

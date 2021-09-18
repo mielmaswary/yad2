@@ -14,10 +14,14 @@ const turnOthersToWhite=()=>{
 }
 
 
-//citys list
+//********************************************//search by city//*************************************
+
   const citiesDropDown=document.getElementById("citiesDropDown") 
   const citySearchField=document.getElementById("citySearchField")
+  const neighborhoodSearchField=document.getElementById("neighborhoodSearchField")
+  const body= document.getElementsByTagName('body')[0]
   const citiesNames=[]
+  let matchCities=undefined
   let searchValue=citySearchField.value
 
 
@@ -45,7 +49,7 @@ const turnOthersToWhite=()=>{
         searchValue=citySearchField.value
         if(searchValue.length>=2){
              removeAllChildren(citiesDropDown)
-             let matchCities=getCitiesMatchTheSearch(searchValue)
+             matchCities=getCitiesMatchTheSearch(searchValue)
              if(matchCities.length>0)
                 citiesDropDown.classList.remove('display-none') 
              for(let city of matchCities){
@@ -54,6 +58,15 @@ const turnOthersToWhite=()=>{
                 cityInDropDown.innerText=city
                 cityInDropDown.innerHTML= boldSearchValue(cityInDropDown,searchValue)
                 citiesDropDown.appendChild(cityInDropDown)
+
+                cityInDropDown.addEventListener('click',()=>{
+                    citySearchField.value=cityInDropDown.innerText
+                    if(isCitySearchFieldValueaValid(citySearchField,matchCities))
+                        neighborhoodSearchField.disabled=false
+                    else
+                        neighborhoodSearchField.disabled=true
+                    citiesDropDown.classList.add('display-none')
+                })
              }
          }
          else
@@ -83,3 +96,28 @@ const turnOthersToWhite=()=>{
           result= result.replace(subStr, '<span class="font-weight-bold">' + subStr + '</span>')
           return result
       }
+
+      body.addEventListener("click",()=>{
+        citiesDropDown.classList.add('display-none')
+      })
+
+      citySearchField.addEventListener("blur",()=>{
+          if(isCitySearchFieldValueaValid(citySearchField,matchCities))
+             neighborhoodSearchField.disabled=false
+          else
+             neighborhoodSearchField.disabled=true
+      })
+
+      const isCitySearchFieldValueaValid=(citySearchField,matchCities)=>{
+          if(matchCities){
+            for(let city of matchCities)
+            if(city===citySearchField.value)
+                return true
+            return false
+          }
+          return false
+      }
+
+
+
+      //********************************************//search by area//*************************************

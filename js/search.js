@@ -55,7 +55,10 @@ const turnOthersToWhite=()=>{
              for(let city of matchCities){
                 let cityInDropDown=document.createElement('div');
                 cityInDropDown.classList.add('padding-8-4')
+                city= city.replace(')', '')
+                city= city.replace('(', '')
                 cityInDropDown.innerText=city
+                
                 cityInDropDown.innerHTML= boldSearchValue(cityInDropDown,searchValue)
                 citiesDropDown.appendChild(cityInDropDown)
 

@@ -15,7 +15,7 @@
     require_once('./searchByType.php');//UI
     require_once('./searchByArea.php');
     require_once('./onlyMoshavAndKibuts.php');
-    require_once('./roomsFilter.php');
+    require_once('./roomsFilter.php');//UI
     require_once('./priceFilter.php');
     require_once('./advancedSearch.php');
     

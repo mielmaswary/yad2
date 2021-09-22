@@ -1,4 +1,4 @@
-<div class="container-fluid white-bg font-size-small">
+<div  id="search-city" class="container-fluid white-bg font-size-small">
    <form class="flex-column" action="./index.php">
        <div class="padding-4">חפשו עיר</div>
        <input id="citySearchField" class="padding-8-4 margin-bottom-4 grey-border" type="text" placeholder="לדוגמא: יפו">

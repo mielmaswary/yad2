@@ -1,57 +1,70 @@
-<div class="container-fluid white-bg font-size-small ">
-    <div class="orange">סגור חיפוש מתקדם</div>
-    <div class="flex-row">
-        <div class="flex-column flex-grow-1">
-             <label>
-                   <input type="checkbox" >
-                   דלתות פנדור
-             </label>
-             <label >
-                   <input type="checkbox">
-                   מעלית
-             </label>
-             <label>
-                   <input type="checkbox" >
-                   מרפסת
-             </label>
-             <label >
-                   <input type="checkbox">
-                   סורגים
-             </label>
-             <label>
-                   <input type="checkbox" >
-                   גישה לנכים
-             </label>
-             <label >
-                   <input type="checkbox">
-                   מרוהטת
-             </label>
+<div class="container-fluid white-bg padding-4 ">
+    <div class="orange padding-4">סגור חיפוש מתקדם</div>
+    <div class="flex-row margin-10">
+    <div class="flex-column  margin-10   ">
+                <label class="container ">דלתות פנדור
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">מעלית
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">מרפסת
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">סורגים
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">גישה לנכים
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">מרוהטת
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">לשותפים
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">בבלעדיות
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
         </div>
-        <div class="flex-column flex-grow-1">
-             <label>
-                   <input type="checkbox" >
-                   דלתות פנדור
-             </label>
-             <label >
-                   <input type="checkbox">
-                   מעלית
-             </label>
-             <label>
-                   <input type="checkbox" >
-                   מרפסת
-             </label>
-             <label >
-                   <input type="checkbox">
-                   סורגים
-             </label>
-             <label>
-                   <input type="checkbox" >
-                   גישה לנכים
-             </label>
-             <label >
-                   <input type="checkbox">
-                   מרוהטת
-             </label>
+        <div class="flex-column  margin-10 ">
+                <label class="container">דלתות פנדור
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">מעלית
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">מרפסת
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">סורגים
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">גישה לנכים
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">מרוהטת
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+                <label class="container">לשותפים
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
+               
         </div>
     </div>
 
@@ -106,13 +119,12 @@
 
     <div class="separator-line"></div>
 
-    <div class="padding-4">גודל דירה (במ"ר)</div>
+    <!-- <div class="padding-4">גודל דירה (במ"ר)</div>
     <div class="flex-row justify-space-around">
          <input type="text" class="padding-10  margin-5 ">
          <div class="small-separator-line margin-10 "></div>
-         <input type="text"  class="padding-10  margin-5 " >
-            
-    </div>
+         <input type="text"  class="padding-10  margin-5 " >     
+    </div> -->
 
     <div class="separator-line"></div>
 
@@ -128,7 +140,7 @@
     <div class="separator-line"></div>
 
     <div class="padding-4 ">חיפוש חופשי</div>
-    <input type="text" class="padding-10  margin-5 width-100 ">
+    <input type="text" class="padding-10  width-100 ">
 
 
 </div>

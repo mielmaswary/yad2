@@ -1,7 +1,14 @@
+
+
 const searchByTypesBtns=document.getElementById('searchByTypesBtns')
+const searchCity=document.getElementById('search-city')
+const searchArea=document.getElementById('search-area')
+
+searchByTypesBtns.childNodes[1].classList.add('grey-bg')
 for(let child of searchByTypesBtns.children){
    child.addEventListener('click',()=>{
        turnOthersToWhite()
+       displayCorrectSearchFields(child)
        child.classList.add('grey-bg')
    })
 }
@@ -10,6 +17,18 @@ const turnOthersToWhite=()=>{
     for(let child of searchByTypesBtns.children){
         if(child.classList.contains('grey-bg'))
             child.classList.remove('grey-bg')
+    }
+}
+const displayCorrectSearchFields=(btn)=>{
+    switch(btn.id){
+        case "search-city-btn":
+            searchCity.classList.remove('display-none')
+            searchArea.classList.add('display-none')
+            break;
+        case "search-area-btn":
+            searchCity.classList.add('display-none')
+            searchArea.classList.remove('display-none')
+            break;
     }
 }
 
@@ -25,7 +44,7 @@ const turnOthersToWhite=()=>{
   let searchValue=citySearchField.value
 
 
-  fetch('https://data.gov.il/api/3/action/datastore_search?resource_id=d4901968-dad3-4845-a9b0-a57d027f11ab')
+  fetch('https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba')
       .then((res) => {
           if (res.ok)
               return res.json()
@@ -36,7 +55,7 @@ const turnOthersToWhite=()=>{
       .then((data) => {
           const cities=data.result.records;
           for(let city of cities){
-              citiesNames.push(Object.values(city)[3].trim())
+              citiesNames.push(Object.values(city)[2].trim())
       
           }
          
@@ -52,24 +71,29 @@ const turnOthersToWhite=()=>{
              matchCities=getCitiesMatchTheSearch(searchValue)
              if(matchCities.length>0)
                 citiesDropDown.classList.remove('display-none') 
+             let i=0;   
              for(let city of matchCities){
-                let cityInDropDown=document.createElement('div');
-                cityInDropDown.classList.add('padding-8-4')
-                city= city.replace(')', '')
-                city= city.replace('(', '')
-                cityInDropDown.innerText=city
-                
-                cityInDropDown.innerHTML= boldSearchValue(cityInDropDown,searchValue)
-                citiesDropDown.appendChild(cityInDropDown)
-
-                cityInDropDown.addEventListener('click',()=>{
-                    citySearchField.value=cityInDropDown.innerText
-                    if(isCitySearchFieldValueaValid(citySearchField,matchCities))
-                        neighborhoodSearchField.disabled=false
-                    else
-                        neighborhoodSearchField.disabled=true
-                    citiesDropDown.classList.add('display-none')
-                })
+                 i++
+                 if(i<=5){
+                    let cityInDropDown=document.createElement('div');
+                    cityInDropDown.classList.add('padding-8-4')
+                    city= city.replace(')', '')
+                    city= city.replace('(', '')
+                    cityInDropDown.innerText=city
+                    
+                    cityInDropDown.innerHTML= boldSearchValue(cityInDropDown,searchValue)
+                    citiesDropDown.appendChild(cityInDropDown)
+    
+                    cityInDropDown.addEventListener('click',()=>{
+                        citySearchField.value=cityInDropDown.innerText
+                        if(isCitySearchFieldValueaValid(citySearchField,matchCities))
+                            neighborhoodSearchField.disabled=false
+                        else
+                            neighborhoodSearchField.disabled=true
+                        citiesDropDown.classList.add('display-none')
+                    })
+                 }
+            
              }
          }
          else
@@ -124,3 +148,33 @@ const turnOthersToWhite=()=>{
 
 
       //********************************************//search by area//*************************************
+
+
+      var ExcelToJSON = function() {
+
+        this.parseExcel = function(file) {
+          var reader = new FileReader();
+      
+          reader.onload = function(e) {
+            var data = e.target.result;
+            var workbook = XLSX.read(data, {
+              type: 'binary'
+            });
+      
+            workbook.SheetNames.forEach(function(sheetName) {
+              // Here is your object
+              var XL_row_object = XLSX.utils.sheet_to_row_object_array(workbook.Sheets[sheetName]);
+              var json_object = JSON.stringify(XL_row_object);
+              console.log(json_object);
+      
+            })
+      
+          };
+      
+          reader.onerror = function(ex) {
+            console.log(ex);
+          };
+      
+          reader.readAsBinaryString(file);
+        };
+      };

@@ -1,5 +1,5 @@
 
-
+    
 const searchByTypesBtns=document.getElementById('searchByTypesBtns')
 const searchCity=document.getElementById('search-city')
 const searchArea=document.getElementById('search-area')
@@ -44,7 +44,7 @@ const displayCorrectSearchFields=(btn)=>{
   let searchValue=citySearchField.value
 
 
-  fetch('https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba')
+  fetch('https://data.gov.il/api/3/action/datastore_search?resource_id=5c78e9fa-c2e2-4771-93ff-7f400a12f7ba&limit=1260')
       .then((res) => {
           if (res.ok)
               return res.json()

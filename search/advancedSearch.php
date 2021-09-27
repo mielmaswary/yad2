@@ -1,5 +1,4 @@
-<div class="container-fluid white-bg padding-4 ">
-    <div class="orange padding-4">סגור חיפוש מתקדם</div>
+<div class="container-fluid white-bg padding-4 display-none">
     <div class="flex-row margin-10">
     <div class="flex-column  margin-10   ">
                 <label class="container ">דלתות פנדור

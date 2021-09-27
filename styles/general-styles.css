@@ -57,6 +57,10 @@ body {
   width: 100%;
 }
 
+.width-90 {
+  width: 90%;
+}
+
 .visibility-hidden {
   visibility: hidden;
   opacity: 0;
@@ -246,6 +250,10 @@ body {
   margin-bottom: 4px;
 }
 
+.margin-bottom-10 {
+  margin-bottom: 40px;
+}
+
 .font-weight-light {
   font-weight: 200;
 }
@@ -341,6 +349,10 @@ a {
 
 .green-btn:hover {
   background-color: #0E9C64;
+}
+
+input, select {
+  border: 1px #c9c4c4b0 solid;
 }
 
 .separator-line {

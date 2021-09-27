@@ -1,7 +1,7 @@
 <div class="container-fluid white-bg font-size-small">
     <div class="padding-4">חדרים</div>
     <div class="flex-row justify-space-around">
-        <select class="padding-10 flex-grow-4  margin-5" name="roomsNumFrom" >
+        <select class="padding-10 flex-grow-4  margin-5 " name="roomsNumFrom" >
             <option value="1" selected>1</option>
             <option value="1.5" selected>1.5</option>
             <option value="2" selected>2</option>

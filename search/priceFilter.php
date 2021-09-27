@@ -17,5 +17,6 @@
     </div>
 
     <div class="separator-line"></div>
+    <div class="orange padding-4 margin-bottom-10">+ חיפוש מתקדם</div>
 
 </div>

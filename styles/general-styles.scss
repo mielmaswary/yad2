@@ -48,6 +48,10 @@ body{
 .width-100{
     width: 100%;
 }
+
+.width-90{
+    width: 90%;
+}
 .visibility-hidden{
     // display: none;
     visibility: hidden;
@@ -190,6 +194,9 @@ body{
 .margin-bottom-4{
     margin-bottom: 4px;
 }
+.margin-bottom-10{
+    margin-bottom: 40px;
+}
 
 
 //text
@@ -277,7 +284,9 @@ a{
 .green-btn:hover{
     background-color: #0E9C64;
 }
-
+input, select{
+    border: 1px #c9c4c4b0 solid;
+}
 
 //special
 .separator-line{

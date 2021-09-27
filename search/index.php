@@ -18,7 +18,6 @@
     require_once('./roomsFilter.php');//UI
     require_once('./priceFilter.php');
     require_once('./advancedSearch.php');
-    
-    require_once('../includes/footer.php');
+    require_once('./searchBtn.php');
     require_once('../includes/htmlEnd.php');
  ?>

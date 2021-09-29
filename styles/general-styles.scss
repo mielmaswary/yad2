@@ -8,6 +8,7 @@
 body{
     background-color:white;
     overflow: auto;
+    width: 100vw;
 
 }
 //position
@@ -15,6 +16,7 @@ body{
     position: fixed;
     bottom: 0;
 }
+
 .fixed-top0{
     position: fixed;
     top: 0;
@@ -44,6 +46,7 @@ body{
     height: 100%;
     overflow: hidden;
   }
+  
 //display
 .width-100{
     width: 100%;
@@ -191,6 +194,9 @@ body{
 .margin-20{
     margin: 20px;
 }
+.margin-top-20{
+    margin-top: 20px;
+}
 .margin-bottom-4{
     margin-bottom: 4px;
 }
@@ -286,6 +292,7 @@ a{
 }
 input, select{
     border: 1px #c9c4c4b0 solid;
+    min-width: 10px;
 }
 
 //special
@@ -298,6 +305,7 @@ input, select{
 .small-separator-line{
     border-bottom: 1px solid #c9c4c4b0;
     height: 100%;
+    min-width: 20px;
     align-self: center;
 }
 .rounded-corners{
@@ -422,6 +430,29 @@ input, select{
     background-image: url('../styles/imgs/map-icon.png');
     padding-left: 6px ; 
 }
+.fiexed-search-btn-container{
+  background-color: #ffffff;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+    
+
+}
+.fiexed-search-btn{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: #FF7100;
+    color: #ffffff;
+    width: 90%;
+    padding: 4px;
+    margin: auto;
+    height: 40px;
+
+    }
 .modal-bg{
     width: 100vw;
     height: 100vh;

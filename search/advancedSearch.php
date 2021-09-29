@@ -1,7 +1,7 @@
-<div class="container-fluid white-bg padding-4 display-none">
-    <div class="flex-row margin-10">
-    <div class="flex-column  margin-10   ">
-                <label class="container ">דלתות פנדור
+<div id="advancedSearch" class="container-fluid white-bg padding-4 transion display-none">
+    <div class="flex-row margin-10 ">
+    <div class="flex-column flex-grow-1  margin-10">
+                <label class="container">דלתות פנדור
                      <input type="checkbox">
                      <span class="checkmark"></span>
                 </label>
@@ -34,7 +34,7 @@
                      <span class="checkmark"></span>
                 </label>
         </div>
-        <div class="flex-column  margin-10 ">
+        <div class="flex-column  flex-grow-1 margin-10 ">
                 <label class="container">דלתות פנדור
                      <input type="checkbox">
                      <span class="checkmark"></span>
@@ -129,11 +129,11 @@
 
     <div class="padding-4">תאריך כניסה</div>
     <div class="flex-column justify-space-around ">
-         <input type="date" class="padding-10  margin-5 width-100">
-         <label class="margin-5" >
-                   <input type="checkbox">
-                   כניסה מיידית
-         </label>  
+         <input type="date" class="padding-10  margin-auto width-100">
+         <label class="container margin-5">כניסה מיידית
+                     <input type="checkbox">
+                     <span class="checkmark"></span>
+                </label>
     </div>
 
     <div class="separator-line"></div>

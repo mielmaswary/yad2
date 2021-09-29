@@ -22,16 +22,14 @@ input[type="radio"]:checked {
 .container {
   display: block;
   position: relative;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-right: 28px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 22px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 /* Hide the browser's default checkbox */
@@ -48,8 +46,8 @@ input[type="radio"]:checked {
   position: absolute;
   top: 0;
   right: 0;
-  height: 22px;
-  width: 22px;
+  height: 16px;
+  width: 16px;
   background-color: #ccc;
   -webkit-transform: translateY(3px);
           transform: translateY(3px);
@@ -79,10 +77,10 @@ input[type="radio"]:checked {
 
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-  left: 8px;
-  top: 1px;
+  left: 5px;
+  top: 0px;
   width: 7px;
-  height: 16px;
+  height: 13px;
   border: solid white;
   border-width: 0 3px 3px 0;
   -webkit-transform: rotate(45deg);

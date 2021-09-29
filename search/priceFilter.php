@@ -1,9 +1,9 @@
 <div class="container-fluid white-bg font-size-small">
-    <div class="padding-4">חדרים</div>
-    <div class="flex-row justify-space-around">
-         <input type="text" class="padding-10  margin-5 ">
-         <div class="small-separator-line margin-10 "></div>
-         <input type="text"  class="padding-10  margin-5 " >
+    <div class="padding-4">מחיר</div>
+    <div class="flex-row justify-center">
+         <input type="text" class="padding-10 flex-grow-4  margin-5  ">
+         <div class="small-separator-line"></div>
+         <input type="text"  class="padding-10 flex-grow-4  margin-5" >
             
     </div>
 
@@ -17,6 +17,6 @@
     </div>
 
     <div class="separator-line"></div>
-    <div class="orange padding-4 margin-bottom-10">+ חיפוש מתקדם</div>
+  
 
 </div>

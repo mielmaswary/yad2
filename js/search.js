@@ -178,3 +178,23 @@ const displayCorrectSearchFields=(btn)=>{
           reader.readAsBinaryString(file);
         };
       };
+
+
+      ////////////////////////////advanced serch//////////////////////////
+
+      const advancedSearchBtnOpen=document.getElementById("advancedSearchBtnOpen")
+      const advancedSearchBtnClose=document.getElementById("advancedSearchBtnClose")
+      const advancedSearch=document.getElementById('advancedSearch')
+      
+      advancedSearchBtnOpen.addEventListener('click',()=>{
+        advancedSearch.classList.remove('display-none')
+        window.scrollTo(0,advancedSearchBtnOpen.offsetTop-200);
+        advancedSearchBtnOpen.classList.add('display-none')
+        advancedSearchBtnClose.classList.remove('display-none')
+      })
+
+      advancedSearchBtnClose.addEventListener('click',()=>{
+        advancedSearch.classList.add('display-none')
+        advancedSearchBtnOpen.classList.remove('display-none')
+        advancedSearchBtnClose.classList.add('display-none')
+      })

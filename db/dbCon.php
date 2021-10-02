@@ -1,19 +1,19 @@
 <?php
 
    
-// $connection=mysqli_connect("localhost","root", "");
+// $connectionection=mysqli_connect("localhost","root", "");
 // if(mysqli_connect_errno())
 //      {
 //          echo "error!".mysqli_connect_error();
 //      }
 // $sql='USE yad2';
-// if(mysqli_query($connection,$sql))
+// if(mysqli_query($connectionection,$sql))
 // {
 // //    echo "Using yad2. </br>";
 // }
 // else
 // {
-//     echo "Error ".mysqli_error($connection);
+//     echo "Error ".mysqli_error($connectionection);
 // }
 ?>
 
@@ -29,7 +29,7 @@ $cleardb_db = substr($cleardb_url["path"],1);
 $active_group = 'default';
 $query_builder = TRUE;
 // Connect to DB
-$conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+$connection = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
 if(mysqli_connect_errno())
      {
@@ -38,12 +38,12 @@ if(mysqli_connect_errno())
     
     
  $sql='USE heroku_bd68ab929265b41';
- if(mysqli_query($conn,$sql))
+ if(mysqli_query($connection,$sql))
  {
       
  }
  else
  {
-     echo "Error!!!!! ".mysqli_error($conn);
+     echo "Error!!!!! ".mysqli_error($connection);
  }
 ?>

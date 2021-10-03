@@ -54,6 +54,10 @@ body {
   overflow: hidden;
 }
 
+.width-85 {
+  width: 85%;
+}
+
 .width-100 {
   width: 100%;
 }
@@ -452,7 +456,7 @@ input, select {
   border-radius: 5%;
 }
 
-.btn-rect, .btn-ellips, .erase-btn, .sort-icon-btn, .filer-icon-btn, .map-icon-btn {
+.btn-rect, .sort-icon-btn, .filer-icon-btn, .map-icon-btn {
   width: 100px;
   height: 25px;
   border: #bebcbc 1px solid;
@@ -464,12 +468,14 @@ input, select {
 }
 
 .btn-ellips, .erase-btn {
-  height: 30px;
+  height: 35px;
+  border: #bebcbc 1px solid;
   border-radius: 15px;
   width: auto;
   padding: 7px 15px 20px 15px;
   margin: 8px;
   border: none;
+  text-align: center;
 }
 
 .erase-btn {
@@ -527,7 +533,7 @@ input, select {
 .modal-bg {
   width: 100vw;
   height: 100vh;
-  background-color: #0000003b;
+  background-color: #00000070;
   z-index: 3;
   position: fixed;
   top: 0;
@@ -549,5 +555,19 @@ input, select {
   .navbar .nav-item .dropdown-menu {
     margin-top: 0;
   }
+}
+
+.hidden-menu {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.loginImg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Y0xJJ_e337A4q2RU5mUuOitfR2O8j6qBQfLOg1iKMCSr92crexblsi_b6wIe6luMZ1I&usqp=CAU");
+  background-size: 15%;
+  height: 55px;
+  width: 100%;
 }
 /*# sourceMappingURL=general-styles.css.map */

@@ -276,7 +276,7 @@ body {
 }
 
 .font-size-small {
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .font-size-ex-small {
@@ -359,6 +359,8 @@ a {
 input, select {
   border: 1px #c9c4c4b0 solid;
   min-width: 10px;
+  background-color: #ffffff;
+  outline: none;
 }
 
 .separator-line {

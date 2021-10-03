@@ -48,14 +48,15 @@ input[type="radio"]:checked {
   right: 0;
   height: 16px;
   width: 16px;
-  background-color: #ccc;
+  background-color: #ffffff;
+  outline: 1px solid #363636;
   -webkit-transform: translateY(3px);
           transform: translateY(3px);
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: #ffffff;
 }
 
 /* When the checkbox is checked, add a blue background */

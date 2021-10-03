@@ -37,7 +37,7 @@
         `movie` varchar(300) COLLATE utf8_unicode_ci DEFAULT NULL,
         `awnerID` int(15) DEFAULT NULL,
         UNIQUE KEY `id` (`id`)
-      ) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;"; 
+      ) ENGINE = MyISAM;"; 
 
 
       if(mysqli_query($connection,$sql))

@@ -1,6 +1,6 @@
 
 <?php
-
+    header('Content-Type: text/html; charset=utf-8');
     require_once('./includes/htmlStart.php');
     require_once('./includes/loading-page.php');
 

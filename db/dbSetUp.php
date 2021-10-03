@@ -6,6 +6,7 @@
         `cityName` varchar(15)  DEFAULT NULL,
         `cityType` varchar(10)  DEFAULT NULL,
         `street` varchar(15)  DEFAULT NULL,
+        cinemaName VARCHAR (50)
         `adressNum` int(8) DEFAULT NULL,
         `floor` int(4) DEFAULT NULL,
         `totalsFloors` int(4) DEFAULT NULL,
@@ -37,7 +38,7 @@
         `movie` varchar(300)  DEFAULT NULL,
         `awnerID` int(15) DEFAULT NULL,
         UNIQUE KEY `id` (`id`)
-      );"; 
+      ) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;"; 
 
 
       if(mysqli_query($connection,$sql))

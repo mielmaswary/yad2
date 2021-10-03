@@ -1816,3 +1816,7 @@ INSERT INTO `ads` (`id`, `apartmentType`, `cityName`, `cityType`, `street`, `adr
 עמיחי 
 מבואות יריחו 
 סנסנה 
+
+
+
+INSERT INTO `ads` (`id`, `apartmentType`, `cityName`, `cityType`, `street`, `adressNum`, `floor`, `totalsFloors`, `pillars`, `neighborhood`, `area`, `roomsNum`, `size`, `groundFloor`, `bars`, `pandor`, `mmd`, `furnished`, `parking`, `pets`, `garage`, `partners`, `airConditioner`, `invalids`, `longTime`, `porch`, `renovated`, `exclusivity`, `price`, `entryDate`, `img1`, `img2`, `img3`, `movie`, `awnerID`) VALUES (NULL, 'דירה', 'ירושלים', 'עיר', 'מונטיפיורי', '10', '1', '6', NULL, 'נחלאות', NULL, '5', '120', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '5000', NULL, 'https://pics.yad2.co.il/Pics/2021/03/20210322093343690.jpg', NULL, NULL, NULL, NULL);

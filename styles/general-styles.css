@@ -32,6 +32,21 @@ body {
   top: -40px;
 }
 
+.relative {
+  position: relative;
+}
+
+.absolute-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.rotate20 {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+}
+
 .transion {
   -webkit-transition: all 0.15s;
   transition: all 0.15s;
@@ -45,8 +60,12 @@ body {
   z-index: 5;
 }
 
-.z-index10 {
+.z-index20 {
   z-index: 20;
+}
+
+.z-index-30 {
+  z-index: 30;
 }
 
 .stop-scrolling {
@@ -64,6 +83,10 @@ body {
 
 .width-90 {
   width: 90%;
+}
+
+.height-100 {
+  height: 100vh;
 }
 
 .visibility-hidden {
@@ -279,6 +302,10 @@ body {
   font-weight: 700;
 }
 
+.font-size-mid {
+  font-size: 17px;
+}
+
 .font-size-small {
   font-size: 15px;
 }
@@ -390,6 +417,10 @@ input, select {
   border: 1px #c9c4c4b0 solid;
 }
 
+.border-none {
+  border: none;
+}
+
 .bottom-line {
   border-bottom: 1px solid #c9c4c4b0;
   padding-bottom: 8px;
@@ -419,15 +450,39 @@ input, select {
   border-bottom: 9px solid #0495FF;
 }
 
+.icon, .utils-heart-icon, .bell-icon, .search-icon, .arrows-icon {
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40px;
+  width: 100%;
+}
+
 .heart-icon, .apartmentsImg, .houseImg, .fenceImg {
-  background-image: url("../styles/imgs/heart.svg");
-  background-size: 55%;
+  background-image: url("https://www.iconpacks.net/icons/1/free-heart-icon-492-thumb.png");
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
   height: 25px;
   width: 25px;
   border-radius: 50%;
   background-color: white;
+}
+
+.utils-heart-icon {
+  background-image: url("https://www.iconpacks.net/icons/1/free-heart-icon-492-thumb.png");
+}
+
+.bell-icon {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqtNephdh8OViXMEIqLUBBXdq2jcIgwR3HTA&usqp=CAU");
+}
+
+.search-icon {
+  background-image: url("https://cdn.icon-icons.com/icons2/2551/PNG/512/search_icon_152764.png");
+}
+
+.arrows-icon {
+  background-image: url("https://cdn.icon-icons.com/icons2/1856/PNG/512/compare-arrows_117672.png");
 }
 
 .apartmentsImg, .houseImg, .fenceImg {
@@ -538,6 +593,10 @@ input, select {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+.modal-content {
+  border-radius: 0;
 }
 
 .box-shadow-bottom {

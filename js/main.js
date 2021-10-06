@@ -6,6 +6,8 @@ mainSearchBtn.addEventListener('click',()=>{
 })
 
 
+
+
 //sticky header
 const stickyHeader=document.getElementById('sticky-header');
 let scrollBefore=0;
@@ -31,20 +33,29 @@ window.addEventListener('scroll',function(e){
 modalBg=document.getElementById('modal-bg')
 
 modalBg.addEventListener('click',()=>{
-    modalBg.classList.add('visibility-hidden')
+    disableModalBg()
     closeAllModals()
 })
 const closeAllModals=()=>{
     const allModals=document.getElementsByClassName('modal-content')
     for(let modal of allModals){
-        modal.classList.add('visibility-hidden')
+        if(modal.classList.contains('moving-menu'))
+            modal.classList.add('hidden-menu')
+        else
+            modal.classList.add('visibility-hidden')
+
         document.body.classList.remove('stop-scrolling')
     }
 }
-
-
+const enableModalBg =()=>{
+    modalBg.classList.remove('visibility-hidden')
+    document.body.classList.add('stop-scrolling')
+}
+const disableModalBg =()=>{
+    modalBg.classList.add('visibility-hidden')
+    document.body.classList.remove('stop-scrolling')
+}
 //sort and filter modals
-
 sortIconBtn=document.getElementById('sort-icon-btn')
 filterIconBtn=document.getElementById('filter-icon-btn')
 sortForm=document.getElementById('sort-form')
@@ -53,9 +64,8 @@ filterForm=document.getElementById('filter-form')
 modalBg=document.getElementById('modal-bg')
 
 sortIconBtn.addEventListener('click',()=>{
-    modalBg.classList.remove('visibility-hidden')
     sortForm.classList.remove('visibility-hidden')
-    document.body.classList.add('stop-scrolling')
+    enableModalBg()
 })
 
 filterIconBtn.addEventListener('click',()=>{
@@ -63,3 +73,28 @@ filterIconBtn.addEventListener('click',()=>{
     filterForm.classList.remove('visibility-hidden')
     document.body.classList.add('stop-scrolling')
 })
+
+
+//mobile-side-menu-modal
+const mobileSideMenuModal=document.getElementById('mobileSideMenuModal')
+const mobilsSideMenuBtn=document.getElementById('sideMenuBtn')
+
+mobilsSideMenuBtn.addEventListener('click',()=>{
+    mobileSideMenuModal.classList.remove('hidden-menu')
+    enableModalBg()
+})
+
+closeBtns=document.getElementsByClassName('closeBtn')
+for(let btn of closeBtns){
+    btn.addEventListener('click',()=>{
+        closeModal(btn.parentElement.parentElement)
+        disableModalBg()
+    })
+}
+
+const closeModal=(modal)=>{
+    if(modal.classList.contains('moving-menu'))
+        modal.classList.add('hidden-menu')
+    else
+        modal.classList.add('visibility-hidden')
+}

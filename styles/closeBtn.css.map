@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAC;EACN,MAAM,EAAE,IAAI;EACZ,KAAK,EAAC,IAAI;EACV,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,GAAG;EACpB,gBAAgB,EAAE,oGAAoG;CACvH",
+    "sources": [
+        "closeBtn.scss"
+    ],
+    "names": [],
+    "file": "closeBtn.css"
+}

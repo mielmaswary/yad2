@@ -1,7 +1,7 @@
 
 <?php
     require_once('./includes/htmlStart.php');
-  //  require_once('./includes/sideMenu/sideMenuIndex.php');
+    require_once('./includes/sideMenu/sideMenuIndex.php');
     require_once('./includes/loading-page.php');
 
     require_once('./db/dbCon.php');

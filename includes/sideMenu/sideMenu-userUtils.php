@@ -1,4 +1,4 @@
-<div class="flex-row justify-space-around container-fluid text-align-center">
+<div class="flex-row justify-space-around container-fluid text-align-center margin-bottom-10">
   <div>
       <div class="bell-icon rotate20"></div>
       <div>התראות שלי</div>

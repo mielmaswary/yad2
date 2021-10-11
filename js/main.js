@@ -2,7 +2,7 @@
 //main-search-btn
 const mainSearchBtn = document.getElementById('main-search')
 mainSearchBtn.addEventListener('click',()=>{
-    location.href='./search/index.php'
+    location.href='./search/search-index.php'
 })
 
 

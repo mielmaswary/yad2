@@ -198,3 +198,61 @@ const displayCorrectSearchFields=(btn)=>{
         advancedSearchBtnOpen.classList.remove('display-none')
         advancedSearchBtnClose.classList.add('display-none')
       })
+
+      
+
+//////////////////////////////////////////////////modals////////////////////////////////////////////////
+
+//modal-bg
+modalBg=document.getElementById('modal-bg')
+
+modalBg.addEventListener('click',()=>{
+    disableModalBg()
+    closeAllModals()
+})
+const closeAllModals=()=>{
+    const allModals=document.getElementsByClassName('modal-content')
+    for(let modal of allModals){
+        if(modal.classList.contains('moving-menu'))
+            modal.classList.add('hidden-menu')
+        else
+            modal.classList.add('visibility-hidden')
+
+        document.body.classList.remove('stop-scrolling')
+    }
+}
+const enableModalBg =()=>{
+    modalBg.classList.remove('visibility-hidden')
+    document.body.classList.add('stop-scrolling')
+}
+const disableModalBg =()=>{
+    modalBg.classList.add('visibility-hidden')
+    document.body.classList.remove('stop-scrolling')
+}
+
+//mobile-side-menu-modal
+const mobileSideMenuModal=document.getElementById('mobileSideMenuModal')
+const mobilsSideMenuBtn=document.getElementById('sideMenuBtn')
+
+mobilsSideMenuBtn.addEventListener('click',()=>{
+    mobileSideMenuModal.classList.remove('hidden-menu')
+    enableModalBg()
+})
+
+closeBtns=document.getElementsByClassName('closeBtn')
+for(let btn of closeBtns){
+    btn.addEventListener('click',()=>{
+        closeModal(btn.parentElement.parentElement)
+        disableModalBg()
+    })
+}
+
+const closeModal=(modal)=>{
+    if(modal.classList.contains('moving-menu'))
+        modal.classList.add('hidden-menu')
+    else
+        modal.classList.add('visibility-hidden')
+}
+
+
+      

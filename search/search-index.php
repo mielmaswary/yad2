@@ -1,6 +1,7 @@
 <?php
 
     require_once('../includes/htmlStart.php');
+    require_once('../includes/sideMenu/sideMenuSearchIndex.php');
     require_once('../db/dbCon.php');
     // require_once('./db/dbSetUp.php');
     require_once('../includes/modal.php');
@@ -20,5 +21,7 @@
     require_once('./advancedSearchBtn.php');
     require_once('./advancedSearch.php');
     require_once('./searchBtn.php');
+
     require_once('../includes/htmlEnd.php');
+
  ?>

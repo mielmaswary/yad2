@@ -224,6 +224,9 @@ body{
 .margin-5{
     margin: 5px;
 }
+.margin-8{
+    margin: 8px;
+}
 .margin-10{
     margin: 10px;
 }
@@ -255,6 +258,9 @@ body{
 }
 .font-weight-bold{
     font-weight: 700;
+}
+.font-size-large{
+    font-size: 23px;
 }
 .font-size-mid{
     font-size: 17px;
@@ -539,9 +545,9 @@ input, select{
 }
 .small-rect{
     width: auto;
-    height: 25px;
+    height: 30px;
     padding: 4px 22px;
-    margin: 8px 4px;  
+    margin: 8px 2px;  
     border-radius: 5%;
   
 }
@@ -565,6 +571,12 @@ input, select{
     border: none;
     text-align: center;
 }
+.user-form-btn{
+   @extend .btn-ellips;
+   padding: 6px 0;
+   height: 40px;
+    
+}
 .erase-btn{
     @extend .btn-ellips;
     border: none;
@@ -572,10 +584,11 @@ input, select{
     background-image: url('../styles/imgs/bin.png');
     background-size: 20%;
     background-repeat: no-repeat;
-    background-position: 90% 50%;
+    background-position: 95% 60%;
     padding-right:25px;
     opacity: 75%
 }
+
 
 .sort-icon-btn{
     @extend .btn-rect;

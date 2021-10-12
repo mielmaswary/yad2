@@ -5,7 +5,7 @@ const devSearchPageUrl="./search/search-index.php"
 
 const mainSearchBtn = document.getElementById('main-search')
 mainSearchBtn.addEventListener('click',()=>{
-    location.href=prodSearchPageUrl
+    location.href=devSearchPageUrl
 })
 
 

@@ -4,8 +4,8 @@
     require_once('./includes/sideMenu/sideMenuIndex.php');
     require_once('./includes/loading-page.php');
 
-  //  require_once('./db/dbCon.php');
-    require_once('./db/dbProdCon.php');
+   require_once('./db/dbCon.php');
+  //  require_once('./db/dbProdCon.php');
   //require_once('./db/dbSetUp.php');
     require_once('./includes/modal.php');
     require_once('./includes/loading-page.php');

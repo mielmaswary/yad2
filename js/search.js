@@ -210,17 +210,17 @@ modalBg.addEventListener('click',()=>{
     disableModalBg()
     closeAllModals()
 })
-const closeAllModals=()=>{
-    const allModals=document.getElementsByClassName('modal-content')
-    for(let modal of allModals){
-        if(modal.classList.contains('moving-menu'))
-            modal.classList.add('hidden-menu')
-        else
-            modal.classList.add('visibility-hidden')
+// const closeAllModals=()=>{
+//     const allModals=document.getElementsByClassName('modal-content')
+//     for(let modal of allModals){
+//         if(modal.classList.contains('moving-menu'))
+//             modal.classList.add('hidden-menu')
+//         else
+//             modal.classList.add('visibility-hidden')
 
-        document.body.classList.remove('stop-scrolling')
-    }
-}
+//         document.body.classList.remove('stop-scrolling')
+//     }
+// }
 const enableModalBg =()=>{
     modalBg.classList.remove('visibility-hidden')
     document.body.classList.add('stop-scrolling')

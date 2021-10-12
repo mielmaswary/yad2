@@ -1,6 +1,6 @@
 
 //main-search-btn
-const prodSearchPageUrl="https://miel-yad2.herokuapp.com/search/search-index.php"
+const prodSearchPageUrl="miel-yad2.herokuapp.com/search/search-index.php"
 const devSearchPageUrl="./search/search-index.php"
 
 const mainSearchBtn = document.getElementById('main-search')

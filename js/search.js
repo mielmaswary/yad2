@@ -1,5 +1,8 @@
 
-    
+
+
+
+
 const searchByTypesBtns=document.getElementById('searchByTypesBtns')
 const searchCity=document.getElementById('search-city')
 const searchArea=document.getElementById('search-area')

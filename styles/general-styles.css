@@ -191,6 +191,18 @@ body {
           justify-content: space-between;
 }
 
+.justify-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.justify-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .align-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -384,15 +396,15 @@ body {
 }
 
 .orange {
-  color: #FF7B00;
+  color: #FD6A01;
 }
 
 .orange-bold {
-  color: #FF7100;
+  color: #FD6A01;
 }
 
 .orange-bold-bg {
-  background-color: #FF7100;
+  background-color: #FD6A01;
 }
 
 .white-bg {
@@ -487,7 +499,7 @@ input, select {
   border-bottom: 9px solid #0495FF;
 }
 
-.icon, .utils-heart-icon, .bell-icon, .search-icon, .arrows-icon, .pencil-icon, .key-icon, .accessability-icon, .questionMark-icon, .phone-icon, .house-icon, .car-icon, .sofa-icon, .suitcase-icon, .career-icon, .pats-icon, .tour-icon, .study-icon {
+.icon, .utils-heart-icon, .bell-icon, .search-icon, .arrows-icon, .pencil-icon, .key-icon, .accessability-icon, .questionMark-icon, .phone-icon, .house-icon, .car-icon, .sofa-icon, .suitcase-icon, .career-icon, .pats-icon, .tour-icon, .study-icon, .login-btn-icon {
   background-size: 45%;
   background-repeat: no-repeat;
   background-position: center;
@@ -602,6 +614,11 @@ input, select {
   background-image: url("https://previews.123rf.com/images/sanek13744/sanek137441912/sanek13744191200161/135211345-graduation-hat-icon-in-flat-style-student-cap-vector-illustration-on-white-isolated-background-unive.jpg");
 }
 
+.login-btn-icon {
+  background-size: 70%;
+  background-image: url("data:image/jpeg;base64,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");
+}
+
 .houseImg {
   background-image: url("https://assets.yad2.co.il/yad2site/y2assets/images/realestate/Country-house.svg");
 }
@@ -703,7 +720,7 @@ input, select {
   bottom: 10px;
   left: 10px;
   right: 10px;
-  background-color: #FF7100;
+  background-color: #FD6A01;
   color: #ffffff;
   width: 90%;
   padding: 4px;

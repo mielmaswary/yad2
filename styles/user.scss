@@ -1,0 +1,38 @@
+.icon{
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width:100%;
+}
+.password-img{
+    @extend .icon;
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyS2qCWWaGI5aJDYm7I6mHi5x73ASRrIisjw&usqp=CAU');
+    height: 200px;
+    width: 280px;
+    margin:30px auto 0 auto; 
+}
+
+.user-face-img{
+    @extend .icon;
+   background-image: url('https://www.centrumvoorafstandsonderwijs.be/assets/img/user.png');
+    height: 200px;
+    width: 280px;
+    margin:30px auto 0 auto; 
+}
+
+
+.back-btn-icon{
+   @extend .icon;
+   background-image: url('https://icon-library.com/images/arrow-back-icon/arrow-back-icon-7.jpg');
+   position:absolute;
+   top: 15px;
+   left: 15px;
+   height: 25px;
+   width: 25px;
+   background-size:80%;
+}
+.back-btn-icon-white{
+    @extend .back-btn-icon;
+    background-image: url('https://img.favpng.com/12/15/25/arrows-icon-left-arrow-icon-back-icon-png-favpng-ifgaDmaBANteBQP10fGUQ4LsG.jpg');
+ }

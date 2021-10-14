@@ -1,7 +1,10 @@
 
 
 
-
+//header
+const leftHeaderItem=document.getElementById("left-header-item")
+leftHeaderItem.children[0].classList.add('visibility-hidden');
+leftHeaderItem.children[1].classList.remove('visibility-hidden');
 
 const searchByTypesBtns=document.getElementById('searchByTypesBtns')
 const searchCity=document.getElementById('search-city')

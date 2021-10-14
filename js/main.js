@@ -1,4 +1,11 @@
 
+//header
+
+const leftHeaderItem=document.getElementById("left-header-item")
+leftHeaderItem.children[0].classList.remove('visibility-hidden');
+leftHeaderItem.children[1].classList.add('visibility-hidden');
+
+
 //main-search-btn
 const prodSearchPageUrl="yad2/search/search-index.php"
 const devSearchPageUrl="./search/search-index.php"

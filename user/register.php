@@ -1,12 +1,17 @@
 <?php
    require_once('../includes/htmlStart.php');
+   require_once('../db/dbCon.php');
+   require_once('./auth-utils/validation.php');
+   require_once('../db/addUser.php');
+  
+
 ?>
 
 <?php
 
      $isSetRegisterDetails=isset($_GET['email'])&&isset($_GET['password'])&&isset($_GET['passwordAuth']);
      if($isSetRegisterDetails){
-          require_once('./auth-utils/isValidRegisterDetails.php');
+ 
           global $registerDetailsValidionStatus;
           global $email;
           global $password;
@@ -17,20 +22,21 @@
           $passwordAuth=$_GET['passwordAuth'];
          
           $registerDetailsValidionStatus=registerDetailsValidionStatus($email,$password,$passwordAuth);
-          if(isValidRegisterDtails($registerDetailsValidionStatus))
-               require_once('./sccessful-registration.php');
-          
+         //  if(isValidRegisterDtails($registerDetailsValidionStatus)){
+         //       require_once('./sccessful-registration.php');   
+         //       addUser($password , $email);
+         //  }
+                     
      }
+
    
 ?>
-
-
 
 <div class="container-fluid">
    <div class="back-btn-icon"></div>
    <div class="user-face-img"></div>
    <div class="text-align-center font-size-large font-weight-bold">היי, נעים להכיר</div>
-   <form action="./register.php" class="flex-column">
+   <form action="../index.php" class="flex-column">
        <div class="margin-8">מייל</div>
        <input type="email" name="email" class="padding-10   margin-8" placeholder="yourmail@mail.co.il">
        <div class="red  margin-8"><?php   if($isSetRegisterDetails){printError($registerDetailsValidionStatus[0]);}  ?></div>
@@ -40,7 +46,7 @@
        <div class="margin-8">אימות סיסמה</div>
        <input type="password" name="passwordAuth" class="padding-10   margin-8" placeholder="הקלדת סיסמה">
        <div class="red margin-bottom-10  margin-8"><?php if($isSetRegisterDetails){printError($registerDetailsValidionStatus[2]);}  ?></div>
-       <input type="submit" value="שלחו לי את הקוד" class="user-form-btn white orange-bold-bg">
+       <input type="submit" value="הרשמה" class="user-form-btn white orange-bold-bg">
    </form>
    <br>
    <div class="flex-row  justify-center">

@@ -3,20 +3,19 @@
     function emailValidionStatus($email){
         if (filter_var($email, FILTER_VALIDATE_EMAIL) &&$email!='' ) 
            return true;
-        return 'Invalid Email!';
-            
+        return 'אה... נראה שכתובת האימייל שהזנת לא תקינה';       
     }
 
     function passwordValidionStatus($password){
         if (preg_match("/^[a-zA-Z-' ]*$/",$password)&&$password!='') 
            return true;
-        return 'Invalid Password!';
+        return 'אופס, הסיסמה לא תקינה';
     }
 
     function  passwordAuthValidionStatus($password,$passwordAuth){
         if($password===$passwordAuth)
             return true;
-        return 'Passwords do not match!';
+        return 'שתי הסיסמאות אינן תואמות';
     }
 
     function registerDetailsValidionStatus($email,$password,$passwordAuth){

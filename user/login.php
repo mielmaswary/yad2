@@ -2,6 +2,31 @@
    require_once('../includes/htmlStart.php');
 ?>
 
+<?php
+
+     $isSetRegisterDetails=isset($_GET['email'])&&isset($_GET['password'])&&isset($_GET['passwordAuth']);
+     if($isSetRegisterDetails){
+ 
+          global $registerDetailsValidionStatus;
+          global $email;
+          global $password;
+          global $passwordAuth;
+
+          $email=$_GET['email'];
+          $password=$_GET['password'];
+          $passwordAuth=$_GET['passwordAuth'];
+         
+          $registerDetailsValidionStatus=registerDetailsValidionStatus($email,$password,$passwordAuth);
+          if(isValidRegisterDtails($registerDetailsValidionStatus)){
+               require_once('./sccessful-registration.php');   
+               addUser($password , $email);
+          }
+                     
+     }
+   
+?>
+
+
 <div class="container-fluid">
    <div class="back-btn-icon"></div>
    <div class="password-img"></div>

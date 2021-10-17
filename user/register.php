@@ -3,15 +3,25 @@
 ?>
 
 <?php
-     require_once('./auth-utils/isValidRegisterDetails.php');
-     $validRegisterDetails=$_GET['email']!=''&&$_GET['password']!=''&&$_GET['passwordAuth']!='';
-     $validRegisterDetails=isValidRegisterDetails($_GET['email'],$_GET['password'],$_GET['passwordAuth']);
 
-     if($validRegisterDetails===true)
-     {
-      //   require_once('./index.php');
-        echo 'hiiiiiiiii';
+     $isSetRegisterDetails=isset($_GET['email'])&&isset($_GET['password'])&&isset($_GET['passwordAuth']);
+     if($isSetRegisterDetails){
+          require_once('./auth-utils/isValidRegisterDetails.php');
+          global $registerDetailsValidionStatus;
+          global $email;
+          global $password;
+          global $passwordAuth;
+
+          $email=$_GET['email'];
+          $password=$_GET['password'];
+          $passwordAuth=$_GET['passwordAuth'];
+         
+          $registerDetailsValidionStatus=registerDetailsValidionStatus($email,$password,$passwordAuth);
+          if(isValidRegisterDtails($registerDetailsValidionStatus))
+               require_once('./sccessful-registration.php');
+          
      }
+   
 ?>
 
 
@@ -23,10 +33,13 @@
    <form action="./register.php" class="flex-column">
        <div class="margin-8">מייל</div>
        <input type="email" name="email" class="padding-10   margin-8" placeholder="yourmail@mail.co.il">
+       <div class="red  margin-8"><?php   if($isSetRegisterDetails){printError($registerDetailsValidionStatus[0]);}  ?></div>
        <div class="margin-8">סיסמה</div>
        <input type="password" name="password" class="padding-10  margin-8" placeholder="הקלדת סיסמה">
+       <div class="red  margin-8"><?php if($isSetRegisterDetails){printError($registerDetailsValidionStatus[1]);}  ?></div>
        <div class="margin-8">אימות סיסמה</div>
-       <input type="password" name="passwordAuth" class="padding-10  margin-bottom-10 margin-8" placeholder="הקלדת סיסמה">
+       <input type="password" name="passwordAuth" class="padding-10   margin-8" placeholder="הקלדת סיסמה">
+       <div class="red margin-bottom-10  margin-8"><?php if($isSetRegisterDetails){printError($registerDetailsValidionStatus[2]);}  ?></div>
        <input type="submit" value="שלחו לי את הקוד" class="user-form-btn white orange-bold-bg">
    </form>
    <br>

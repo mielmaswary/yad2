@@ -1,29 +1,44 @@
 <?php
 
-    function isValidEmail($email){
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) 
-           return false;
-        return true;
+    function emailValidionStatus($email){
+        if (filter_var($email, FILTER_VALIDATE_EMAIL) &&$email!='' ) 
+           return true;
+        return 'Invalid Email!';
             
     }
 
-    function isValidPassword($password){
-        if (preg_match("/^[a-zA-Z-' ]*$/",$password)) 
+    function passwordValidionStatus($password){
+        if (preg_match("/^[a-zA-Z-' ]*$/",$password)&&$password!='') 
            return true;
-        return 'ttt';
+        return 'Invalid Password!';
     }
 
-    function  isValidPasswordAuth($passwordAuth){
-        return true;
+    function  passwordAuthValidionStatus($password,$passwordAuth){
+        if($password===$passwordAuth)
+            return true;
+        return 'Passwords do not match!';
     }
 
-    function isValidRegisterDetails($email,$password,$passwordAuth){
+    function registerDetailsValidionStatus($email,$password,$passwordAuth){
         return
-        isValidEmail($email)&&
-        isValidPassword($password)&&
-        isValidPasswordAuth($passwordAuth);
+        [
+            emailValidionStatus($email),
+            passwordValidionStatus($password),
+            passwordAuthValidionStatus($password,$passwordAuth)
+        ];
     }
 
 
+    function printError($validionStatus){
+        if($validionStatus!=1)
+           echo $validionStatus;
+    }
 
+    function isValidRegisterDtails($registerDetailsValidionStatus){
+        foreach ($registerDetailsValidionStatus as $value)
+           if ($value!=1)
+               return false;
+        return true;
+
+    } 
 ?>

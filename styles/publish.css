@@ -1,1 +1,11 @@
-/* No CSS *//*# sourceMappingURL=publish.css.map */
+#publish-categories-btns * {
+  min-width: 100px;
+}
+
+#publish-categories-btns .mid-fat-separator-line {
+  width: 20%;
+  margin: auto;
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+/*# sourceMappingURL=publish.css.map */

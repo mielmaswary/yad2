@@ -282,6 +282,10 @@ body {
   margin: 10px;
 }
 
+.flex-padding-items-10 > div {
+  padding: 10px;
+}
+
 .flex-shrink-1 {
   -ms-flex-negative: 1;
       flex-shrink: 1;
@@ -494,6 +498,12 @@ input, select {
   border-bottom: 1px solid #c9c4c4b0;
   height: 10px;
   margin-bottom: 8px;
+}
+
+.mid-fat-separator-line {
+  border-bottom: 6px solid #c9c4c4b0;
+  height: 0px;
+  border-radius: 5px;
 }
 
 .small-separator-line {

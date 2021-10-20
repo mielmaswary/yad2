@@ -1,7 +1,14 @@
 #publish-categories-btns{
-    // *{
-    //     background-size: contain;
-    // }
+    *{
+       min-width: 100px;
+    }
+    
+    .mid-fat-separator-line{
+        width: 20%;
+        margin: auto;
+        transform: translateY(-6px);
+        
+    }
    
 }
 

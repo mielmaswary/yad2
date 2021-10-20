@@ -1,75 +1,93 @@
 
 //general
-.icon{
+.icon-basis{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+   
+}
+.icon-min-small-size{
+    min-width: 50px;
+    min-height: 25px;
+}
+.icon-min-mid-size{
+    min-width: 100px;
+    min-height: 50px;
 }
 //images
+.yad2-logo{
+    @extend .icon-basis;
+    background-image: url('https://assets.yad2.co.il/yad2site/y2assets/images/header/yad2Logo.png'); 
+}
+
+.loginIcon{
+    @extend .icon-basis;
+    background-image: url('https://i7.uihere.com/icons/116/312/43/personal-information-page-baby-name-249a0c9a01b33a0635d7038cac742155.png');
+}
 .apartmentsIcon{
-    @extend .icon;
+    @extend .icon-basis;
     background-image: url('https://assets.yad2.co.il/yad2site/y2assets/images/realestate/Building.svg');
 }
 .carIcon{
-    @extend .icon;
-    background-image: url('http://www.mcicon.com/wp-content/uploads/2021/01/Transport_Car_1-copy-20.jpg');
+    @extend .icon-basis;
+    background-image: url('https://cdn2.icon-basisfinder.com/data/icons/vehicle-type-outline/1024/sedan-512.png');
 }
 .sofaIcon{
-    @extend .icon;
+    @extend .icon-basis;
     background-image: url('https://previews.123rf.com/images/mattbadal/mattbadal1903/mattbadal190300377/119352059-couch-icon-with-outline-style-furniture-collection-vector-eps10-illustration.jpg');
 
 }
 .businnesIcon{
-    @extend .icon;
+    @extend .icon-basis;
     background-image: url('data:image/png;base64,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');
 }
 
 .handyManIcon{
-    @extend .icon;
+    @extend .icon-basis;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ586k8tGxTxpGhtYSLeYYAqrm2LPAeChQjiA&usqp=CAU');
 
 }
 
 .buildingsIcon{
-    @extend .icon;
+    @extend .icon-basis;
     background-image: url('https://cdn-icons-png.flaticon.com/512/269/269947.png');
 }
 
 .cellphoneIcon{
-    @extend .icon;
+    @extend .icon-basis;
     background-image: url('https://i.pinimg.com/originals/c5/67/1f/c5671f6de9faee0f1c89c66a4a7e0708.png');
 }
 
 .furnitureIcon{
-    @extend .icon;
+    @extend .icon-basis;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn92L2CkxQ4VUg4dvNTP_IM20_tHuhFM7Raw&usqp=CAU');
 }
 
 .tourismIcon{
-    @extend .icon;
-    background-image: url('https://cdn0.iconfinder.com/data/icons/thin-games-fun/24/thin-1011_holiday_seaside_relax-2-512.png');
+    @extend .icon-basis;
+    background-image: url('https://cdn0.icon-basisfinder.com/data/icons/thin-games-fun/24/thin-1011_holiday_seaside_relax-2-512.png');
 }
 
 .fationIcon{
-    @extend .icon;
-    background-image: url('https://cdn0.iconfinder.com/data/icons/black-friday-line/2048/1084_-_Ladies_Shopping-512.png');
+    @extend .icon-basis;
+    background-image: url('https://cdn0.icon-basisfinder.com/data/icons/black-friday-line/2048/1084_-_Ladies_Shopping-512.png');
 }
 
 .petIcon{
-    @extend .icon;
+    @extend .icon-basis;
     background-image: url('https://banner2.cleanpng.com/20201110/cvo/transparent-cat-icon-animals-icon-5faab5881d5b40.6261903016050231121203.jpg');
 }
 
 .babyIcon{
-    @extend .icon;
-    background-image: url('https://ih1.redbubble.net/image.703666531.6886/flat,750x1000,075,f.u2.jpg');
+    @extend .icon-basis;
+    background-image: url('https://img1.pnghut.com/1/22/25/3MURLqeK8C/baby-boy-icon-child-icon-maternity-icon.jpg');
 }
 .pencilsIcon{
-    @extend .icon;
-    background-image: url('https://cdn.iconscout.com/icon/premium/png-256-thumb/pencil-21-81367.png');
+    @extend .icon-basis;
+    background-image: url('https://cdn.icon-basisscout.com/icon/premium/png-256-thumb/pencil-21-81367.png');
 }
 .suitcaseIcon{
-    @extend .icon;
+    @extend .icon-basis;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeF8PpnHQGXOuvtQLAjGCkVsSUWeyI2dDPcgPb_wG2wNZvz82kPJ9AbyYweAqsRIOaoPc&usqp=CAU');
 }
 

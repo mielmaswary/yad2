@@ -1,7 +1,25 @@
-.icon, .apartmentsIcon, .carIcon, .sofaIcon, .businnesIcon, .handyManIcon, .buildingsIcon, .cellphoneIcon, .furnitureIcon, .tourismIcon, .fationIcon, .petIcon, .babyIcon, .pencilsIcon, .suitcaseIcon {
+.icon-basis, .yad2-logo, .loginIcon, .apartmentsIcon, .carIcon, .sofaIcon, .businnesIcon, .handyManIcon, .buildingsIcon, .cellphoneIcon, .furnitureIcon, .tourismIcon, .fationIcon, .petIcon, .babyIcon, .pencilsIcon, .suitcaseIcon {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+.icon-min-small-size {
+  min-width: 50px;
+  min-height: 25px;
+}
+
+.icon-min-mid-size {
+  min-width: 100px;
+  min-height: 50px;
+}
+
+.yad2-logo {
+  background-image: url("https://assets.yad2.co.il/yad2site/y2assets/images/header/yad2Logo.png");
+}
+
+.loginIcon {
+  background-image: url("https://i7.uihere.com/icons/116/312/43/personal-information-page-baby-name-249a0c9a01b33a0635d7038cac742155.png");
 }
 
 .apartmentsIcon {
@@ -9,7 +27,7 @@
 }
 
 .carIcon {
-  background-image: url("http://www.mcicon.com/wp-content/uploads/2021/01/Transport_Car_1-copy-20.jpg");
+  background-image: url("https://cdn2.icon-basisfinder.com/data/icons/vehicle-type-outline/1024/sedan-512.png");
 }
 
 .sofaIcon {
@@ -37,11 +55,11 @@
 }
 
 .tourismIcon {
-  background-image: url("https://cdn0.iconfinder.com/data/icons/thin-games-fun/24/thin-1011_holiday_seaside_relax-2-512.png");
+  background-image: url("https://cdn0.icon-basisfinder.com/data/icons/thin-games-fun/24/thin-1011_holiday_seaside_relax-2-512.png");
 }
 
 .fationIcon {
-  background-image: url("https://cdn0.iconfinder.com/data/icons/black-friday-line/2048/1084_-_Ladies_Shopping-512.png");
+  background-image: url("https://cdn0.icon-basisfinder.com/data/icons/black-friday-line/2048/1084_-_Ladies_Shopping-512.png");
 }
 
 .petIcon {
@@ -49,11 +67,11 @@
 }
 
 .babyIcon {
-  background-image: url("https://ih1.redbubble.net/image.703666531.6886/flat,750x1000,075,f.u2.jpg");
+  background-image: url("https://img1.pnghut.com/1/22/25/3MURLqeK8C/baby-boy-icon-child-icon-maternity-icon.jpg");
 }
 
 .pencilsIcon {
-  background-image: url("https://cdn.iconscout.com/icon/premium/png-256-thumb/pencil-21-81367.png");
+  background-image: url("https://cdn.icon-basisscout.com/icon/premium/png-256-thumb/pencil-21-81367.png");
 }
 
 .suitcaseIcon {

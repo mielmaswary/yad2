@@ -1,6 +1,6 @@
 
 
-
+;smtp_port = 465
 <!-- <div id="header" class="">
     <div>לוגו</div>
     <div id="nav-bar">

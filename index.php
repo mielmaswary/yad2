@@ -23,7 +23,7 @@
     require_once('./includes/ads.php');
     require_once('./includes/footer.php');
     require_once('./user/auth-utils/registerDetails.php');
-
+    require_once('./utils/mail.php');
     require_once('./includes/htmlEnd.php');
  ?>
 

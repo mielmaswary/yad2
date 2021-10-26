@@ -1,7 +1,7 @@
 <?php
    require_once('../includes/htmlStart.php');
    require_once('../db/dbCon.php');
-   require_once('./auth-utils/validation.php');
+   require_once('./auth-utils/register-validation.php');
    require_once('../db/addUser.php');
   
 

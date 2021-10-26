@@ -50,7 +50,7 @@
       }
 
 
-      $sql="CREATE TABLE `users` ( `firstName` VARCHAR(20) NULL DEFAULT NULL , `lastName` VARCHAR(20) NULL DEFAULT NULL , `password` VARCHAR(20) NULL DEFAULT NULL , `phone` VARCHAR(20) NULL DEFAULT NULL , `email` VARCHAR(20) NULL DEFAULT NULL , `ads` VARCHAR(30) NULL DEFAULT NULL ) ENGINE = MyISAM;";
+      $sql="CREATE TABLE `users` ( `firstName` VARCHAR(20) NULL DEFAULT NULL , `lastName` VARCHAR(20) NULL DEFAULT NULL , `password` VARCHAR(20) NULL DEFAULT NULL , `email` VARCHAR(20) NULL DEFAULT NULL , `ads` VARCHAR(30) NULL DEFAULT NULL ) ENGINE = MyISAM;";
       
       if(mysqli_query($connection,$sql))
       {

@@ -2,6 +2,7 @@
 
    require_once('dbCon.php');
    function addUser($password, $email){
+       $password=password_hash($password,PASSWORD_DEFAULT);
        $connection=mysqli_connect("localhost","root", "");
        if(mysqli_connect_errno())
             {
@@ -17,7 +18,7 @@
            echo "Error ".mysqli_error($connection);
        }
 
-       $sql="INSERT INTO `users` (`firstName`, `lastName`, `password`, `phone`, `email`) VALUES (NULL, NULL, '$password',NULL, '$email')" ;     
+       $sql="INSERT INTO `users` (`firstName`, `lastName`, `password`, `email`) VALUES (NULL, NULL, '$password', '$email')" ;     
        if(mysqli_query($connection,$sql))
        {
            

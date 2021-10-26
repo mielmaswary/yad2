@@ -1,6 +1,6 @@
 <?php
       require_once('./db/dbCon.php');
-      require_once('./user/auth-utils/validation.php');
+      require_once('./user/auth-utils/register-validation.php');
       require_once('./db/addUser.php');
       $isSetRegisterDetails=isset($_GET['email'])&&isset($_GET['password'])&&isset($_GET['passwordAuth']);
       if($isSetRegisterDetails){

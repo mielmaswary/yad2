@@ -1,5 +1,8 @@
 <?php
    require_once('../includes/htmlStart.php');
+   require_once('./auth-utils/login-validation.php');
+   require_once('../db/dbCon.php');
+   require_once('../db/addUser.php');
 ?>
 
 <?php
@@ -33,9 +36,9 @@
    <div class="text-align-center font-size-large font-weight-bold">היי, טוב לראות אותך</div>
    <form action="../index.php" class="flex-column">
        <div class="margin-8">מייל</div>
-       <input type="mail" class="padding-10   margin-8" placeholder="yourmail@mail.co.il">
-       <div class="margin-8">סיסמה</div>
-       <input type="password" class="padding-10  margin-8" placeholder="הקלדת סיסמה">
+       <input type="mail"  name="email" class="padding-10   margin-8" placeholder="yourmail@mail.co.il">
+       <div class="margin-8" >סיסמה</div>
+       <input type="password" name="password" class="padding-10  margin-8" placeholder="הקלדת סיסמה">
        <div class="flex-row justify-end margin-8"><div class="orange-bold forgot-password-btn">שכחתי סיסמה</div></div>
        <input type="submit" value="התחברות" class="user-form-btn white orange-bold-bg">
    </form>

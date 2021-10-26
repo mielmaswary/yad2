@@ -1,1 +1,1 @@
-<div id="modal-bg" class="modal-bg visibility-hidden transion"></div>
+<div id="modal-bg" class="modal-bg transion "></div>

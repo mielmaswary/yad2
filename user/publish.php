@@ -2,6 +2,10 @@
    require_once('../includes/htmlStart.php');
 ?>
 <div class="container-fluid  ">
+       <?php 
+          require_once('../includes/modal.php');
+          require_once('./ad-type-modal.php');
+       ?>
        <div class="flex-row justify-space-between margin-5">
           <div class="yad2-logo icon-min-mid-size"></div>
           <div class="flex-row align-center  ">

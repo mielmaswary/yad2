@@ -133,7 +133,7 @@ body {
 }
 
 .display-none {
-  display: none;
+  display: none !important;
 }
 
 .container-full {
@@ -347,6 +347,10 @@ body {
 
 .padding-10 {
   padding: 10px;
+}
+
+.padding-20 {
+  padding: 20px;
 }
 
 .padding-15 {

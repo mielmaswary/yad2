@@ -1,4 +1,3 @@
-
 //header
 
 const leftHeaderItem=document.getElementById("left-header-item")
@@ -14,7 +13,6 @@ const mainSearchBtn = document.getElementById('main-search')
 mainSearchBtn.addEventListener('click',()=>{
     location.href=devSearchPageUrl
 })
-
 
 
 
@@ -108,3 +106,6 @@ const closeModal=(modal)=>{
     else
         modal.classList.add('visibility-hidden')
 }
+
+
+ 

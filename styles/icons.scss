@@ -28,6 +28,20 @@
     @extend .icon-basis;
     background-image: url('https://assets.yad2.co.il/yad2site/y2assets/images/realestate/Building.svg');
 }
+.color-house-icon{
+    @extend .icon-basis;
+    background-image: url('https://img.icons8.com/bubbles/2x/home.png');
+}
+.bw-house-icon{
+    @extend .icon-basis;
+    background-image: url('https://previews.123rf.com/images/dustin999/dustin9992007/dustin999200700345/152428905-house-icon-home-icon-house-icon-isolated-on-white-background.jpg');
+
+}
+.rentHouseIcon{
+    @extend .icon-basis;
+    background-image: url('https://cdn.iconscout.com/icon/premium/png-256-thumb/rental-home-1741354-1484616.png');
+
+}
 .carIcon{
     @extend .icon-basis;
     background-image: url('https://cdn2.icon-basisfinder.com/data/icons/vehicle-type-outline/1024/sedan-512.png');
@@ -90,7 +104,10 @@
     @extend .icon-basis;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeF8PpnHQGXOuvtQLAjGCkVsSUWeyI2dDPcgPb_wG2wNZvz82kPJ9AbyYweAqsRIOaoPc&usqp=CAU');
 }
-
+.keysIcon{
+    @extend .icon-basis;
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/keys-1408403-1191221.png');
+}
 
 
 //size

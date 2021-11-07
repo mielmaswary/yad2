@@ -1,6 +1,9 @@
-.flex-square {
+.flex-square, .flex-square-dashed {
   width: 40vw;
   height: 30vw;
+}
+
+.flex-square-dashed {
   border: 1px  dashed grey;
 }
 /*# sourceMappingURL=flexible-squares.css.map */

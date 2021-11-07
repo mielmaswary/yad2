@@ -1,7 +1,12 @@
 
 
 .flex-square{
-  width: 40vw;
-  height: 30vw;
-  border: 1px  dashed grey;
-}
+    width: 40vw;
+    height: 30vw;
+ }
+ .flex-square-dashed{
+     @extend .flex-square;
+     border: 1px  dashed grey;
+
+ }
+ 

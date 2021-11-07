@@ -109,11 +109,13 @@
     background-image: url('https://cdn.iconscout.com/icon/free/png-256/keys-1408403-1191221.png');
 }
 
-.imageUploadIcon{
-
+.plus-icon{
+    @extend .icon-basis;
+    background-image: url('https://friconix.com/png/fi-xtluxx-plus-thin.png');
 }
-.videoUploadIcon{
-    
+.videoIcon{
+    @extend .icon-basis;
+    background-image: url('https://cdn0.iconfinder.com/data/icons/pack-web-app-game/512/videoplayer-512.png');
 }
 
 

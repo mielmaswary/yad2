@@ -8,4 +8,8 @@
   -webkit-transform: translateY(-6px);
           transform: translateY(-6px);
 }
+
+.main-img-btn {
+  border: #EBEBEB 4px solid;
+}
 /*# sourceMappingURL=publish.css.map */

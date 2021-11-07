@@ -51,6 +51,11 @@ body{
     top:0;
     right: 0;
 }
+.absolute-top-center{
+    position: absolute;
+    top:0;
+    right: 0;
+}
 
 .absolute-above-top-center{
     position: absolute;
@@ -290,6 +295,9 @@ body{
 .padding-15{
     padding: 15px;
 }
+.padding-3prec{
+    padding: 3%;
+}
 .margin-0{
     margin: 0 !important;
 }
@@ -323,6 +331,9 @@ body{
 .margin-bottom-10{
     margin-bottom: 40px;
 }
+.margin-bottom-100prec {
+    margin-bottom: 100%;
+}
 
 .border-box{
     box-sizing: border-box;
@@ -339,6 +350,12 @@ body{
 }
 .font-weight-bold{
     font-weight: 700;
+}
+.font-size-45{
+    font-size: 45px;
+}
+.font-size-35{
+    font-size: 35px;
 }
 .font-size-large{
     font-size: 23px;
@@ -439,10 +456,19 @@ input, select{
 }
 
 //special
+
 .separator-line{
     border-bottom: 1px solid #c9c4c4b0;
     height: 10px;
     margin-bottom: 8px;
+   
+}
+.dark-thin-separator-line{
+    border-bottom: 1px solid #0a0a0ad2;
+    height: 5px;
+    margin: auto;
+    margin-bottom: 8px;
+    
    
 }
 .mid-fat-separator-line{

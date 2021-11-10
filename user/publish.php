@@ -16,24 +16,24 @@
           </div>
        </div>
       <div class="font-size-large text-align-center margin-20 white-space-nowrap">אני רוצה לפרסם מודעה בלוח...</div>
+
       <?php
           require_once('./publish-includes/categories.php');
-          
-          getCloseModeDisplay('באיזו קטגוריה נפרסם היום?');
+          getCloseModeDisplay('באיזו קטגוריה נפרסם היום?','subCategoriesCloseMode');
           require_once('./publish-includes/sub-categories.php');
-          getCloseModeDisplay('כתובת הנכס');
+          getCloseModeDisplay('כתובת הנכס','adressCloseMode');
           require_once('./publish-includes/adress.php');
-          getCloseModeDisplay('על הנכס ');
+          getCloseModeDisplay('על הנכס ','appartmentDetailsCloseMode');
           require_once('./publish-includes/appartment-details.php');
-          getCloseModeDisplay('תשלומים תאריכים ועוד');  
+          getCloseModeDisplay('תשלומים תאריכים ועוד','paymentAndDatesCloseMode');  
           require_once('./publish-includes/paymentAndDates.php');
-          getCloseModeDisplay('תמונות וסרטונים ');  
+          getCloseModeDisplay('תמונות וסרטונים ','imagesAndVideoCloseMode');  
           require_once('./publish-includes/imagesAndVideo.php');
-          getCloseModeDisplay('פרטים ליצירת קשר ');  
+          getCloseModeDisplay('פרטים ליצירת קשר ','contactDetailsCloseMode');  
           require_once('./publish-includes/contactDetails.php');
-          getCloseModeDisplay('בחירת מסלול');  
+          getCloseModeDisplay('בחירת מסלול','pubishPreferenceCloseMode');  
           require_once('./publish-includes/pubishPreference.php');
-          getCloseModeDisplay('סיום פרסום ');  
+          getCloseModeDisplay('סיום פרסום ','adCompleteCloseMode');  
           require_once('./publish-includes/adComplete.php');  
 
       ?>

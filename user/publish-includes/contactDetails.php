@@ -1,4 +1,4 @@
-<div class="padding-16-8 font-size-small">
+<div class="display-none padding-16-8 font-size-small">
     <div>רגע לפני שמפרסמים את המודעה, נבדוק שפרטי הקשר נכונים</div>
     <br>
     <div class="margin-bottom-4">שם איש קשר*</div>

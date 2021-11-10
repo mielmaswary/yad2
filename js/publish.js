@@ -42,7 +42,9 @@ for(let btn of adTypeBtns ){
 
 //step2
 const subCategoriesContainer=document.getElementById('subCategoriesContainer')
-const subCategoriesBtns=document.getElementsByClassName('subCategoriesBtns')
+const subCategoriesBtns=document.getElementsByClassName('subCategoriesBtn')
+const subCategoriesCloseMode=document.getElementById('subCategoriesCloseMode')
+const step2Items=document.getElementById("step2Items")
 
 const closePublishCategoriesBtns=()=>{
     publishCategoriesBtns.classList.add('display-none')
@@ -51,9 +53,21 @@ const openSubCategories=()=>{
     subCategoriesContainer.classList.remove('display-none')
 }
 
+for (let btn of subCategoriesBtns){
+    btn.addEventListener('click',()=>{
+         openAdress()
+    })
+}
+
 
 
 //step3
+const adressContainer=document.getElementById('adressContainer')
+const openAdress=()=>{
+    adressContainer.classList.remove('display-none')
+}
+
+
 
 //step4
 

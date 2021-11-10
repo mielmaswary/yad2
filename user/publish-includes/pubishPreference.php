@@ -1,4 +1,4 @@
-<div class="padding-16-8 font-size-small ">
+<div class="display-none padding-16-8 font-size-small ">
     <div> באיזה מסלול לפרסם את המודעה? זה הזמן לבלוט מעל כולם
     </div>
 <br>
@@ -54,7 +54,7 @@
     
     <label class="container ">
 אני מאשר קבלת דיוור פרסומי הקשור למודעה שפרסמתי באתר יד 2 (להסרה - יש להוריד את הסימון בתיבה)  
-          <input type="checkbox">
+          <input  type="checkbox" checked>
           <span class="checkmark"></span>
      </label>
 </div>

@@ -1,11 +1,16 @@
 
 
-.flex-square{
+.flex-suare-20{
+    width: 30vw;
+    height: 30vw;
+}
+
+.flex-rect{
     width: 40vw;
     height: 30vw;
  }
- .flex-square-dashed{
-     @extend .flex-square;
+ .flex-rect-dashed{
+     @extend .flex-rect;
      border: 1px  dashed grey;
 
  }

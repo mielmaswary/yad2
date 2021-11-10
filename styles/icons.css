@@ -1,4 +1,4 @@
-.icon-basis, .yad2-logo, .loginIcon, .apartmentsIcon, .color-house-icon, .bw-house-icon, .rentHouseIcon, .carIcon, .sofaIcon, .businnesIcon, .handyManIcon, .buildingsIcon, .cellphoneIcon, .furnitureIcon, .tourismIcon, .fationIcon, .petIcon, .babyIcon, .pencilsIcon, .suitcaseIcon, .keysIcon, .plus-icon, .videoIcon {
+.icon-basis, .yad2-logo, .loginIcon, .apartmentsIcon, .color-house-icon, .bw-house-icon, .rentHouseIcon, .carIcon, .sofaIcon, .businnesIcon, .handyManIcon, .buildingsIcon, .cellphoneIcon, .furnitureIcon, .tourismIcon, .fationIcon, .petIcon, .babyIcon, .pencilsIcon, .suitcaseIcon, .keysIcon, .plus-icon, .videoIcon, .crown-icon, .rocket-icon-orange, .rocket-icon-purple {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -100,6 +100,18 @@
 
 .videoIcon {
   background-image: url("https://cdn0.iconfinder.com/data/icons/pack-web-app-game/512/videoplayer-512.png");
+}
+
+.crown-icon {
+  background-image: url("https://tse2.mm.bing.net/th/id/OIP.RpG1qCYhGzWN_de2tfaIRAAAAA?pid=ImgDet&w=260&h=260&rs=1");
+}
+
+.rocket-icon-orange {
+  background-image: url("https://assets.yad2.co.il/personal/images/payment/rocketShip_VIP.png");
+}
+
+.rocket-icon-purple {
+  background-image: url("https://assets.yad2.co.il/personal/images/payment/rocketShip_Bold.png");
 }
 
 .background-size-100 {

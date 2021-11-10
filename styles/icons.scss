@@ -117,7 +117,19 @@
     @extend .icon-basis;
     background-image: url('https://cdn0.iconfinder.com/data/icons/pack-web-app-game/512/videoplayer-512.png');
 }
+.crown-icon{
+    @extend .icon-basis;
+    background-image: url('https://tse2.mm.bing.net/th/id/OIP.RpG1qCYhGzWN_de2tfaIRAAAAA?pid=ImgDet&w=260&h=260&rs=1');
+}
 
+.rocket-icon-orange{
+    @extend .icon-basis;
+    background-image: url('https://assets.yad2.co.il/personal/images/payment/rocketShip_VIP.png');
+}
+.rocket-icon-purple{
+    @extend .icon-basis;
+    background-image: url('https://assets.yad2.co.il/personal/images/payment/rocketShip_Bold.png');
+}
 
 //size
 .background-size-100{

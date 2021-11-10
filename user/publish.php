@@ -31,6 +31,8 @@
           require_once('./publish-includes/imagesAndVideo.php');
           getCloseModeDisplay('פרטים ליצירת קשר ');  
           require_once('./publish-includes/contactDetails.php');
+          getCloseModeDisplay('בחירת מסלול');  
+          require_once('./publish-includes/pubishPreference.php');
           getCloseModeDisplay('סיום פרסום ');  
           require_once('./publish-includes/adComplete.php');  
 

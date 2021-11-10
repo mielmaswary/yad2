@@ -56,6 +56,12 @@ body {
   right: 0;
 }
 
+.absolute-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .absolute-top-center {
   position: absolute;
   top: 0;
@@ -111,6 +117,10 @@ body {
 
 .width-90 {
   width: 90%;
+}
+
+.width-70 {
+  width: 70%;
 }
 
 .width-60 {
@@ -324,6 +334,10 @@ body {
 
 .flex-margin-items-10 > div {
   margin: 10px;
+}
+
+.flex-margin-items-5 > div {
+  margin: 5px;
 }
 
 .flex-padding-items-10 > div {
@@ -540,6 +554,14 @@ body {
 
 .orange-bold-bg {
   background-color: #FD6A01;
+}
+
+.bright-yellow-bg {
+  background-color: #FEFBDC;
+}
+
+.bright-pink-bg {
+  background-color: #FFF7F7;
 }
 
 .white-bg {
@@ -802,6 +824,51 @@ input, select {
   height: 90px;
 }
 
+.square-20 {
+  width: 20px;
+  height: 20px;
+}
+
+.square-30 {
+  width: 30px;
+  height: 30px;
+}
+
+.square-40 {
+  width: 40px;
+  height: 40px;
+}
+
+.square-50 {
+  width: 50px;
+  height: 50px;
+}
+
+.square-60 {
+  width: 60px;
+  height: 60px;
+}
+
+.square-100 {
+  width: 100px;
+  height: 100px;
+}
+
+.square-120 {
+  width: 120px;
+  height: 120px;
+}
+
+.square-150 {
+  width: 150px;
+  height: 150px;
+}
+
+.square-200 {
+  width: 200px;
+  height: 200px;
+}
+
 .square-in-flex {
   background: tomato;
   margin: 5px;
@@ -820,6 +887,12 @@ input, select {
 }
 
 .mid-rect {
+  height: 40px;
+  padding: 6px 22px;
+  border-radius: 10px;
+}
+
+.large-rect {
   height: 120px;
   width: 40%;
   border-radius: 5%;

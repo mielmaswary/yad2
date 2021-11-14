@@ -1,4 +1,4 @@
-<div class="padding-16-8 font-size-small display-none">
+<div id="detailscontainer" class="padding-16-8 font-size-small display-none">
 
 <div class="margin-bottom-4">סוג הנכס*</div>
         <select class="width-100 padding-16-8 margin-bottom-4" name="roomsNum" >
@@ -79,7 +79,7 @@
         </div>
         <br>
         <div class="flex-row justify-space-between">
-            <div class="btn-ellips grey-border padding-4-8">&nbsp;&nbsp;חזרה&nbsp;&nbsp;</div>
-            <div class="btn-ellips orange orange-border padding-4-8">&nbsp;&nbsp;המשך&nbsp;&nbsp;</div>
+            <div id="backToAdressBtn" class="btn-ellips grey-border padding-4-8">&nbsp;&nbsp;חזרה&nbsp;&nbsp;</div>
+            <div id="openPaymentAndDatesBtn" class="btn-ellips orange orange-border padding-4-8">&nbsp;&nbsp;המשך&nbsp;&nbsp;</div>
         </div>
 </div>

@@ -1,4 +1,4 @@
-<div class="display-none padding-16-8 font-size-small">
+<div id="paymentAndDatesContainer" class="display-none padding-16-8 font-size-small">
      <div class="margin-bottom-4">מספר תשלומים*</div>
      <select class="width-100 padding-16-8 margin-bottom-4" name="appartmentType" >
            <option value="1" >1</option>
@@ -43,8 +43,8 @@
      </label>
      <br>
      <div class="flex-row justify-space-between">
-            <div class="btn-ellips grey-border padding-4-8">&nbsp;&nbsp;חזרה&nbsp;&nbsp;</div>
-            <div class="btn-ellips orange orange-border padding-4-8">&nbsp;&nbsp;המשך&nbsp;&nbsp;</div>
+            <div id="backTodetailsBtn" class="btn-ellips grey-border padding-4-8">&nbsp;&nbsp;חזרה&nbsp;&nbsp;</div>
+            <div id="openImagesAndVideoBtn" class="btn-ellips orange orange-border padding-4-8">&nbsp;&nbsp;המשך&nbsp;&nbsp;</div>
      </div>
       
 </div>

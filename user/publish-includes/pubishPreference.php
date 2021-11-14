@@ -1,4 +1,4 @@
-<div class="display-none padding-16-8 font-size-small ">
+<div id="pubishPreferenceContainer" class="display-none padding-16-8 font-size-small ">
     <div> באיזה מסלול לפרסם את המודעה? זה הזמן לבלוט מעל כולם
     </div>
 <br>
@@ -46,7 +46,7 @@
            <div>✓ מודעה רגילה</div>
            <div class="bright-grey">  x הקפצה אוטומטית לחסכון בזמן</div>
         </div>
-        <div class="mid-rect orange-bold-bg text-align-center white padding-10 width-70 padding-20 margin-auto">
+        <div id="regularAdBtn" class="mid-rect orange-bold-bg text-align-center white padding-10 width-70 padding-20 margin-auto">
             <span class="font-weight-bold"> חינם</span> / 28 ימים
         </div>
     </div>  

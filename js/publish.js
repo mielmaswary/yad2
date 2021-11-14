@@ -53,9 +53,14 @@ const openSubCategories=()=>{
     subCategoriesContainer.classList.remove('display-none')
 }
 
+const closeSubCategories=()=>{
+    subCategoriesContainer.classList.add('display-none')
+}
+
 for (let btn of subCategoriesBtns){
     btn.addEventListener('click',()=>{
-         openAdress()
+         openAdressContainer()
+         closeSubCategories()
     })
 }
 
@@ -63,17 +68,121 @@ for (let btn of subCategoriesBtns){
 
 //step3
 const adressContainer=document.getElementById('adressContainer')
-const openAdress=()=>{
+const openDetailsContainerBtn=document.getElementById('openDetailsContainerBtn')
+const backToSubCatBtn=document.getElementById('backToSubCatBtn')
+const openAdressContainer=()=>{
     adressContainer.classList.remove('display-none')
 }
-
+const closeAdressContainer=()=>{
+    adressContainer.classList.add('display-none')
+}
+openDetailsContainerBtn.addEventListener("click",()=>{
+    openDetailsContainer()
+    closeAdressContainer()
+})
+backToSubCatBtn.addEventListener('click',()=>{
+    closeAdressContainer()
+    openSubCategories()
+})
 
 
 //step4
+const detailscontainer=document.getElementById('detailscontainer')
+const openPaymentAndDatesBtn=document.getElementById('openPaymentAndDatesBtn')
+const backToAdressBtn=document.getElementById('backToAdressBtn')
+
+const openDetailsContainer= ()=>{
+    detailscontainer.classList.remove('display-none')
+}
+
+const closeDetailsContainer= ()=>{
+    detailscontainer.classList.add('display-none')
+}
+openPaymentAndDatesBtn.addEventListener("click",()=>{
+    openPaymentAndDatesContainer()
+    closeDetailsContainer()
+})
+
+backToAdressBtn.addEventListener('click',()=>{
+    closeDetailsContainer()
+    openAdressContainer()
+})
 
 //step5
+const paymentAndDatesContainer=document.getElementById('paymentAndDatesContainer')
+const openImagesAndVideoBtn=document.getElementById('openImagesAndVideoBtn')
+const backTodetailsBtn=document.getElementById('backTodetailsBtn') 
+
+const openPaymentAndDatesContainer= ()=>{
+    paymentAndDatesContainer.classList.remove('display-none')
+}
+const closePaymentAndDatesContainer= ()=>{
+    paymentAndDatesContainer.classList.add('display-none')
+}
+openImagesAndVideoBtn.addEventListener("click",()=>{
+    openImagesAndVideoContainer()
+    closePaymentAndDatesContainer()
+})
+
+backTodetailsBtn.addEventListener('click',()=>{
+    closePaymentAndDatesContainer()
+    openDetailsContainer()
+})
 
 //step6
+const imagesAndVideoContainer=document.getElementById('imagesAndVideoContainer')
+const openContactDetailsBtn=document.getElementById('openContactDetailsBtn')
+const backToPaymentAndDatesBtn =document.getElementById('backToPaymentAndDatesBtn')
 
 
+const openImagesAndVideoContainer= ()=>{
+    imagesAndVideoContainer.classList.remove('display-none')
+}
+const closeImagesAndVideoContainer= ()=>{
+    imagesAndVideoContainer.classList.add('display-none')
+}
+openContactDetailsBtn.addEventListener("click",()=>{
+    openContactDetailsContainer()
+    closeImagesAndVideoContainer()
+})
+backToPaymentAndDatesBtn.addEventListener('click',()=>{
+    closeImagesAndVideoContainer()
+    openPaymentAndDatesContainer()
+})
 
+//step7
+const contactDetailsContainer=document.getElementById("contactDetailsContainer")
+const openPubishPreferenceBtn=document.getElementById('openPubishPreferenceBtn')
+const backToImagesAndVideoBtn=document.getElementById('backToImagesAndVideoBtn')
+
+const openContactDetailsContainer =()=>{
+    contactDetailsContainer.classList.remove('display-none')
+}
+
+const closeContactDetailsContainer =()=>{
+    contactDetailsContainer.classList.add('display-none')
+}
+openPubishPreferenceBtn.addEventListener('click',()=>{
+    openPubishPreferenceContainer()
+    closeContactDetailsContainer()
+})
+
+//step8
+const pubishPreferenceContainer=document.getElementById("pubishPreferenceContainer")
+const backToContactDetailsBtn= document.getElementById("backToContactDetailsBtn")
+const adPublishForm=document.getElementById('adPublishForm')
+const regularAdBtn=document.getElementById("regularAdBtn")
+
+
+const openPubishPreferenceContainer =()=>{
+    pubishPreferenceContainer.classList.remove('display-none')
+}
+const closePubishPreferenceContainer =()=>{
+    pubishPreferenceContainer.classList.add('display-none')
+}
+
+regularAdBtn.addEventListener("click",()=>{
+    adPublishForm.submit()
+})
+
+ 

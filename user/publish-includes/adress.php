@@ -51,7 +51,7 @@
         <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="appartmentNeighborhood" placeholder="אזור חיפה והסביבה">
         <div class="margin-bottom-4 font-size-ex-small">המידע הזה מגיע מגוף ממשלתי ולא ניתן לשינוי</div>
         <div class="flex-row justify-space-between">
-            <div class="btn-ellips grey-border padding-4-8">&nbsp;&nbsp;חזרה&nbsp;&nbsp;</div>
-            <div class="btn-ellips orange orange-border padding-4-8">&nbsp;&nbsp;המשך&nbsp;&nbsp;</div>
+            <div id="backToSubCatBtn" class="btn-ellips grey-border padding-4-8">&nbsp;&nbsp;חזרה&nbsp;&nbsp;</div>
+            <div id="openDetailsContainerBtn" class="btn-ellips orange orange-border padding-4-8">&nbsp;&nbsp;המשך&nbsp;&nbsp;</div>
         </div>
 </div>

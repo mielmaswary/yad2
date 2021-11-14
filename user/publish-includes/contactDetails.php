@@ -1,4 +1,4 @@
-<div class="display-none padding-16-8 font-size-small">
+<div id="contactDetailsContainer" class="display-none padding-16-8 font-size-small">
     <div>רגע לפני שמפרסמים את המודעה, נבדוק שפרטי הקשר נכונים</div>
     <br>
     <div class="margin-bottom-4">שם איש קשר*</div>
@@ -22,7 +22,7 @@
           </label>
     </div>
     <div class=" flex-row justify-end padding-10">
-        <div class="btn-ellips orange-bold orange-border font-size-13 ">המשך לבחירת מסלול</div>
+        <div id="openPubishPreferenceBtn" class="btn-ellips orange-bold orange-border font-size-13 ">המשך לבחירת מסלול</div>
     </div>
 
 </div>

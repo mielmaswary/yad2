@@ -1,4 +1,4 @@
-<div class="display-none">
+<div id="imagesAndVideoContainer" class="display-none">
      <div class="flex-row flex-wrap justify-space-around padding-16-8 font-size-small bright-grey">
           <div class="margin-10 main-text-color">ידעת שמודעות עם תמונות ברורות מקבלות פי 10 יותר פניות?
                  לא להסס להעלות לפה תמונות (אפשר עד 10 + וידאו) ולהבליט את הצדדים הטובים ביותר של הנכס
@@ -47,4 +47,9 @@
                <div class="text-align-center ">העלאת תמונות</div>
           </div>
      </div>
+
+     <div class="flex-row justify-space-between">
+            <div id="backToPaymentAndDatesBtn" class="btn-ellips grey-border padding-4-8">&nbsp;&nbsp;חזרה&nbsp;&nbsp;</div>
+            <div id="openContactDetailsBtn" class="btn-ellips orange orange-border padding-4-8">&nbsp;&nbsp;המשך&nbsp;&nbsp;</div>
+        </div>
 </div>

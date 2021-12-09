@@ -1,7 +1,7 @@
-<div id="detailscontainer" class="padding-16-8 font-size-small display-none">
+<div id="detailscontainer" class="padding-16-8 font-size-small ">
 
 <div class="margin-bottom-4">סוג הנכס*</div>
-        <select class="width-100 padding-16-8 margin-bottom-4" name="roomsNum" >
+        <select class="width-100 padding-16-8 margin-bottom-4" name="apartmentType" >
         <option value="1" selected>1</option>
             <option value="1.5" selected>1.5</option>
             <option value="2" selected>2</option>
@@ -30,7 +30,7 @@
 
         <div class="margin-bottom-4">חנייה</div>
         <div class="flex-row ">
-            <input class="padding-16-8 text-align-center grey-bg" type="text" value="ללא">
+            <input class="padding-16-8 text-align-center grey-bg" type="text" name="parking" value="ללא">
             <input class="padding-16-8 text-align-center" type="text" value=2>
             <input class="padding-16-8 text-align-center" type="text" value=3>
             <input class="padding-16-8 text-align-center" type="text" value=4>
@@ -39,31 +39,32 @@
 
         <div class="margin-bottom-4">מרפסת</div>
         <div class="flex-row ">
-            <input class="padding-16-8 text-align-center grey-bg" type="text" value="ללא">
-            <input class="padding-16-8 text-align-center" type="text" value=2>
-            <input class="padding-16-8 text-align-center" type="text" value=3>
-            <input class="padding-16-8 text-align-center" type="text" value=4>
+            <input class="padding-16-8 text-align-center grey-bg" type="text" name="porch" value="ללא">
+            <input class="padding-16-8 text-align-center" type="text" name="porch" value=2>
+            <input class="padding-16-8 text-align-center" type="text" name="porch" value=3>
+            <input class="padding-16-8 text-align-center" type="text" name="porch" value=4>
         </div>
         <br>
         <div class="font-size-mid font-weight-bold">מאפייני הנכס</div>
         <div class="flex-row justify-space-around">
             <div class="flex-column width-50 ">
-               <div class="btn-ellips grey-border padding-4-8">מיזוג</div>
-               <div class="btn-ellips grey-border padding-4-8">מחסן</div>
-               <div class="btn-ellips grey-border padding-4-8">גישה לנכים</div>
-               <div class="btn-ellips grey-border padding-4-8">מזגן תדיראן</div>
-               <div class="btn-ellips grey-border padding-4-8">סורגים</div>
-               <div class="btn-ellips grey-border padding-4-8">חיות מחמד</div>
-               <div class="btn-ellips grey-border padding-4-8">דוד שמש</div>
               
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="airConditioner" type="text"> מיזוג</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="garage" type="text">מחסן</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="invalids" type="text">גישה לנכים</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="tadiran" type="text">מזגן תדיראן</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="bars" type="text">סורגים</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="pets" type="text">חיות מחמד</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="waterHeater" type="text">דוד שמש</div>
+
             </div>
             <div class="flex-column width-50">
-               <div class="btn-ellips grey-border padding-4-8">ממ"ד</div>
-               <div class="btn-ellips grey-border padding-4-8">ריהוט</div>
-               <div class="btn-ellips grey-border padding-4-8">מעלית</div>
-               <div class="btn-ellips grey-border padding-4-8">משופצת</div>
-               <div class="btn-ellips grey-border padding-4-8">לשותפים</div>
-               <div class="btn-ellips grey-border padding-4-8">מטבח כשר</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="mmd" type="text">ממ"ד</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="furnished" type="text">ריהוט</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="elevator" type="text">מעלית</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="renovated" type="text">משופצת</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="partners" type="text">לשותפים</div>
+               <div class="btn-ellips grey-border padding-4-8"><input class="detailsHiddenInput" name="waterHeater" type="text">מטבח כשר</div>
             </div>
         </div>
         <br>

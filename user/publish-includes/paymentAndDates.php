@@ -38,7 +38,7 @@
      </div>
      <br>
      <label class="container ">לטווח ארוך
-          <input type="checkbox">
+          <input type="checkbox" name="longTime">
           <span class="checkmark"></span>
      </label>
      <br>

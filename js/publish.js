@@ -1,5 +1,4 @@
 //step1
-
 modalBg=document.getElementById('modal-bg')
 adTypeModal=document.getElementById('ad-type-modal')
 
@@ -90,6 +89,7 @@ backToSubCatBtn.addEventListener('click',()=>{
 const detailscontainer=document.getElementById('detailscontainer')
 const openPaymentAndDatesBtn=document.getElementById('openPaymentAndDatesBtn')
 const backToAdressBtn=document.getElementById('backToAdressBtn')
+const detailsHiddenInputs=document.getElementsByClassName('detailsHiddenInput')
 
 const openDetailsContainer= ()=>{
     detailscontainer.classList.remove('display-none')
@@ -107,6 +107,14 @@ backToAdressBtn.addEventListener('click',()=>{
     closeDetailsContainer()
     openAdressContainer()
 })
+
+for (let element of detailsHiddenInputs){
+    element.value=false
+    element.parentElement.addEventListener('click',()=>{
+        element.value=element.value==="true"?false:true
+        element.value==="true"?element.parentElement.classList.add("grey-bg"):element.parentElement.classList.remove("grey-bg") 
+    })
+}
 
 //step5
 const paymentAndDatesContainer=document.getElementById('paymentAndDatesContainer')
@@ -185,4 +193,5 @@ regularAdBtn.addEventListener("click",()=>{
     adPublishForm.submit()
 })
 
- 
+
+

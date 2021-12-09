@@ -35,20 +35,12 @@
               getCloseModeDisplay('בחירת מסלול','pubishPreferenceCloseMode');  
               require_once('./publish-includes/pubishPreference.php');
               getCloseModeDisplay('סיום פרסום ','adCompleteCloseMode');  
-              require_once('./publish-includes/adComplete.php');  
+             // require_once('./publish-includes/adComplete.php');  
     
           ?>
-
       </form>
-     
-
 </div>
-
-
-
-
 <?php
-
    require_once('../includes/htmlEnd.php');
 ?>
 

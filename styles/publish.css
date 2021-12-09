@@ -12,4 +12,8 @@
 .main-img-btn {
   border: #EBEBEB 4px solid;
 }
+
+.detailsHiddenInput {
+  display: none;
+}
 /*# sourceMappingURL=publish.css.map */

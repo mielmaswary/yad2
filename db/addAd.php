@@ -24,7 +24,6 @@
        }
        else
        {
-           
            echo "Error ".mysqli_error($connection);
        }
    }

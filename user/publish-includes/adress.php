@@ -1,7 +1,7 @@
 <div id="adressContainer" class=" padding-16-8 font-size-small display-none">
      <div class="margin-bottom-4" >סימנו עבורך את שדות החובה שלא נפספס פרט חשוב</div>
         <div class="margin-bottom-4">סוג הנכס*</div>
-        <select class="width-100 padding-16-8 margin-bottom-4" name="appartmentType" >
+        <select class="width-100 padding-16-8 margin-bottom-4" name="apartmentType" >
             <option value="all" selected>הכל</option>
             <option value="basement" >מרתף</option>
             <option value="1" >1</option>
@@ -23,9 +23,9 @@
             <option value="17" >17</option>
         </select>
         <div class="margin-bottom-4">יישוב*</div>
-        <input class="width-100 padding-15 margin-bottom-4 " type="text" name="appartmentCity" >
+        <input class="width-100 padding-15 margin-bottom-4 " type="text" name="cityName" >
         <div class="margin-bottom-4">רחוב*</div>
-        <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="appartmentStreet" >
+        <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="street" >
         <div class="margin-bottom-4 font-size-ex-small">המידע הזה מגיע מגוף ממשלתי. אם הרחוב שלך לא מופיע מומלץ לבחור ברחוב קרוב אליך</div>
         <div class="margin-bottom-4">מספר בית</div>
         <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="adressNum" >
@@ -36,19 +36,19 @@
              </div>
              <div class="width-50">
                  <div class="margin-bottom-4">סהכ קומות בבניין</div>
-                 <input class="width-90 padding-16-8 margin-bottom-4 " type="text" name="totalFloors" placeholder="הכנס סהכ קומות " >
+                 <input class="width-90 padding-16-8 margin-bottom-4 " type="text" name="totalsFloors" placeholder="הכנס סהכ קומות " >
              </div>
         </div>
         <br>
         <label class="container">על עמודים
-            <input type="checkbox">
+            <input type="checkbox" name="pillars">
             <span class="checkmark"></span>
         </label>
         <div class="margin-bottom-4">שכונה*</div>
-        <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="appartmentNeighborhood">
+        <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="neighborhood">
         <div class="margin-bottom-4 font-size-ex-small">המידע הזה מגיע מגוף ממשלתי ולא ניתן לשינוי</div>
         <div class="margin-bottom-4">אזור השכרה</div>
-        <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="appartmentNeighborhood" placeholder="אזור חיפה והסביבה">
+        <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="area" placeholder="אזור חיפה והסביבה">
         <div class="margin-bottom-4 font-size-ex-small">המידע הזה מגיע מגוף ממשלתי ולא ניתן לשינוי</div>
         <div class="flex-row justify-space-between">
             <div id="backToSubCatBtn" class="btn-ellips grey-border padding-4-8">&nbsp;&nbsp;חזרה&nbsp;&nbsp;</div>

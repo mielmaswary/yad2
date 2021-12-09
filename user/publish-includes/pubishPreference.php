@@ -1,4 +1,4 @@
-<div id="pubishPreferenceContainer" class="display-none padding-16-8 font-size-small ">
+<div id="pubishPreferenceContainer" class=" padding-16-8 font-size-small ">
     <div> באיזה מסלול לפרסם את המודעה? זה הזמן לבלוט מעל כולם
     </div>
 <br>

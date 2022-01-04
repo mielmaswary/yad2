@@ -1,7 +1,0 @@
- <input name="" value="" name="" value="" class="btn-ellips grey-border padding-4-8">מיזוג
-               <input name="" value="" class="btn-ellips grey-border padding-4-8">מחסן
-               <input name="" value="" class="btn-ellips grey-border padding-4-8">גישה לנכים
-               <input name="" value="" class="btn-ellips grey-border padding-4-8">מזגן תדיראן
-               <input name="" value="" class="btn-ellips grey-border padding-4-8" >סורגים
-               <input name="" value="" class="btn-ellips grey-border padding-4-8">חיות מחמד
-               <input name="" value="" class="btn-ellips grey-border padding-4-8">דוד שמש

@@ -29,20 +29,21 @@
         <br>
 
         <div class="margin-bottom-4">חנייה</div>
-        <div class="flex-row ">
-            <input class="padding-16-8 text-align-center grey-bg" type="text" name="parking" value="ללא">
-            <input class="padding-16-8 text-align-center" type="text" value=2>
-            <input class="padding-16-8 text-align-center" type="text" value=3>
-            <input class="padding-16-8 text-align-center" type="text" value=4>
-        </div>
+            <div class="flex-row ">
+       
+                <div class="padding-16-8 text-align-center grey-bg width-25 grey-border"><input class="radioHiddenInput"  type="text" name="parking" value=0>ללא</div>
+                <div class="padding-16-8 text-align-center width-25 grey-border"><input class="radioHiddenInput"  type="text" name="parking" value=1>1</div>
+                <div class="padding-16-8 text-align-center width-25 grey-border"><input class="radioHiddenInput"  type="text" name="parking" value=2>2</div>
+                <div class="padding-16-8 text-align-center width-25 grey-border"><input class="radioHiddenInput"  type="text" name="parking" value=3>3</div>
+            </div>
         <br>
 
         <div class="margin-bottom-4">מרפסת</div>
         <div class="flex-row ">
-            <input class="padding-16-8 text-align-center grey-bg" type="text" name="porch" value="ללא">
-            <input class="padding-16-8 text-align-center" type="text" name="porch" value=2>
-            <input class="padding-16-8 text-align-center" type="text" name="porch" value=3>
-            <input class="padding-16-8 text-align-center" type="text" name="porch" value=4>
+            <div class="padding-16-8 text-align-center grey-bg width-25 grey-border"><input class="radioHiddenInput"  type="text" name="porch" value=0>ללא</div>
+            <div class="padding-16-8 text-align-center width-25 grey-border"><input class="radioHiddenInput"  type="text" name="porch" value=1>1</div>
+            <div class="padding-16-8 text-align-center width-25 grey-border"><input class="radioHiddenInput"  type="text" name="porch" value=2>2</div>
+            <div class="padding-16-8 text-align-center width-25 grey-border"><input class="radioHiddenInput"  type="text" name="porch" value=3>3</div>
         </div>
         <br>
         <div class="font-size-mid font-weight-bold">מאפייני הנכס</div>
@@ -76,7 +77,7 @@
                   <div>פירוט הנכס</div>
                   <div>0/400</div>
              </div>
-            <textarea class="width-100 padding-10" rows="8" cols="50" placeholder="זה המקום לתאר את הפרטים הבולטים, למשל, האם נערך שיפוץ במבנה, מה שופץ, כיווני אוויר, האווירה ברחוב וכו"></textarea>
+            <textarea name="freeText" class="width-100 padding-10" rows="8" cols="50" placeholder="זה המקום לתאר את הפרטים הבולטים, למשל, האם נערך שיפוץ במבנה, מה שופץ, כיווני אוויר, האווירה ברחוב וכו"></textarea>
         </div>
         <br>
         <div class="flex-row justify-space-between">

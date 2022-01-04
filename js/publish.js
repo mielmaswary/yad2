@@ -89,6 +89,7 @@ backToSubCatBtn.addEventListener('click',()=>{
 const detailscontainer=document.getElementById('detailscontainer')
 const openPaymentAndDatesBtn=document.getElementById('openPaymentAndDatesBtn')
 const backToAdressBtn=document.getElementById('backToAdressBtn')
+const radioHiddenInputs=document.getElementsByClassName('radioHiddenInput')
 const detailsHiddenInputs=document.getElementsByClassName('detailsHiddenInput')
 
 const openDetailsContainer= ()=>{
@@ -108,6 +109,25 @@ backToAdressBtn.addEventListener('click',()=>{
     openAdressContainer()
 })
 
+for (let element of radioHiddenInputs){
+    element.value=false
+    element.parentElement.addEventListener('click',()=>{
+        makeAllElementsValueFalse()
+        element.value=true
+        changeEelementsBgColor()
+        element.value==="true"?element.parentElement.classList.add("grey-bg"):element.parentElement.classList.remove("grey-bg") 
+    })
+}
+const makeAllElementsValueFalse=()=>{
+    for (let element of radioHiddenInputs){
+        element.value=false
+    }
+}
+const changeEelementsBgColor=()=>{
+    for (let element of radioHiddenInputs){
+        element.value==="true"?element.parentElement.classList.add("grey-bg"):element.parentElement.classList.remove("grey-bg") 
+    }
+}
 for (let element of detailsHiddenInputs){
     element.value=false
     element.parentElement.addEventListener('click',()=>{

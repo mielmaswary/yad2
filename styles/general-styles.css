@@ -76,6 +76,14 @@ body {
           transform: translate(50%, -50%);
 }
 
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
 .rotate20 {
   -webkit-transform: rotate(20deg);
           transform: rotate(20deg);
@@ -139,6 +147,10 @@ body {
   width: 30%;
 }
 
+.width-25 {
+  width: 25%;
+}
+
 .width-20 {
   width: 20%;
 }
@@ -153,6 +165,10 @@ body {
 
 .visibility-hidden {
   visibility: hidden;
+  opacity: 0;
+}
+
+.opacity0 {
   opacity: 0;
 }
 

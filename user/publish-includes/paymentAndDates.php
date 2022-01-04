@@ -1,4 +1,4 @@
-<div id="paymentAndDatesContainer" class="display-none padding-16-8 font-size-small">
+<div id="paymentAndDatesContainer" class=" padding-16-8 font-size-small">
      <div class="margin-bottom-4">מספר תשלומים*</div>
      <select class="width-100 padding-16-8 margin-bottom-4" name="appartmentType" >
            <option value="1" >1</option>
@@ -17,14 +17,15 @@
      <div class="margin-bottom-4">ועד בית</div>
      <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="houseCommittee" placeholder="הכנסת סכום תשלום לועד בית" >
      <div class="margin-bottom-4">ארנונה לחודשיים</div>
-     <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="arnona" placeholder="סגום הארנונה לתשלום" >
+     <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="arnona" placeholder="סכום הארנונה לתשלום" >
      <div class="margin-bottom-4">מ"ר בנוי</div>
      <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="size" placeholder="כמה מר יש בנכס" >
      <div class="margin-bottom-4">מחיר</div>
      <input class="width-100 padding-16-8 margin-bottom-4 " type="text" name="price" placeholder="סכום מינימלי 100" >
      <div class="margin-bottom-4">תאריך כניסה*</div>
+     <input class="width-40 padding-10" name="entryDate" type="date">
+
      <div class="flex-row align-center flex-start">
-           <input class="width-40 padding-10 " type="date">
            &nbsp;&nbsp;  &nbsp;&nbsp;
             <label class="container width-20 margin-0">מיידי
                <input type="checkbox">

@@ -13,7 +13,7 @@
   border: #EBEBEB 4px solid;
 }
 
-.detailsHiddenInput {
+.detailsHiddenInput, .radioHiddenInput {
   display: none;
 }
 /*# sourceMappingURL=publish.css.map */
